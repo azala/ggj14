@@ -26,6 +26,8 @@
 		2422EC971895265000741342 /* EverydayHerosOutside.png in Resources */ = {isa = PBXBuildFile; fileRef = 2422EC961895265000741342 /* EverydayHerosOutside.png */; };
 		2422EC991895332E00741342 /* Jamie_left_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2422EC981895332E00741342 /* Jamie_left_1.png */; };
 		2422ECB31895432300741342 /* dialogue.json in Resources */ = {isa = PBXBuildFile; fileRef = 2422ECB21895432300741342 /* dialogue.json */; };
+		247561C018955E5500155443 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 247561BF18955E5500155443 /* libz.dylib */; };
+		247561C118955E6C00155443 /* libObjectiveChipmunk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED53AB1894978F00692381 /* libObjectiveChipmunk.a */; settings = {ATTRIBUTES = (Weak, ); }; };
 		24ED53981894978F00692381 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED53971894978F00692381 /* QuartzCore.framework */; };
 		24ED539A1894978F00692381 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED53991894978F00692381 /* OpenGLES.framework */; };
 		24ED539C1894978F00692381 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED539B1894978F00692381 /* OpenAL.framework */; };
@@ -276,6 +278,7 @@
 		2422EC961895265000741342 /* EverydayHerosOutside.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EverydayHerosOutside.png; sourceTree = "<group>"; };
 		2422EC981895332E00741342 /* Jamie_left_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jamie_left_1.png; sourceTree = "<group>"; };
 		2422ECB21895432300741342 /* dialogue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dialogue.json; sourceTree = "<group>"; };
+		247561BF18955E5500155443 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		24ED53941894978F00692381 /* EverydaySuperzero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverydaySuperzero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24ED53971894978F00692381 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		24ED53991894978F00692381 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -733,6 +736,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				247561C018955E5500155443 /* libz.dylib in Frameworks */,
 				24ED539C1894978F00692381 /* OpenAL.framework in Frameworks */,
 				24ED53A21894978F00692381 /* UIKit.framework in Frameworks */,
 				24ED53981894978F00692381 /* QuartzCore.framework in Frameworks */,
@@ -740,6 +744,7 @@
 				24ED53A61894978F00692381 /* CoreGraphics.framework in Frameworks */,
 				24ED53A81894978F00692381 /* CoreText.framework in Frameworks */,
 				24ED539A1894978F00692381 /* OpenGLES.framework in Frameworks */,
+				247561C118955E6C00155443 /* libObjectiveChipmunk.a in Frameworks */,
 				24ED53A41894978F00692381 /* Foundation.framework in Frameworks */,
 				24ED539E1894978F00692381 /* AudioToolbox.framework in Frameworks */,
 			);
@@ -769,6 +774,7 @@
 		24ED53961894978F00692381 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				247561BF18955E5500155443 /* libz.dylib */,
 				24ED53971894978F00692381 /* QuartzCore.framework */,
 				24ED53991894978F00692381 /* OpenGLES.framework */,
 				24ED539B1894978F00692381 /* OpenAL.framework */,
@@ -1730,11 +1736,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Michel D'Sa";
-				TargetAttributes = {
-					24ED53931894978F00692381 = {
-						DevelopmentTeam = 6JBPC845A6;
-					};
-				};
 			};
 			buildConfigurationList = 24ED538F1894978F00692381 /* Build configuration list for PBXProject "EverydaySuperzero" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2067,6 +2068,7 @@
 					"\"$(SRCROOT)/$(PROJECT_NAME)/Libraries/Chipmunk/objectivec/include\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -2083,6 +2085,7 @@
 					"\"$(SRCROOT)/$(PROJECT_NAME)/Libraries/Chipmunk/objectivec/include\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};

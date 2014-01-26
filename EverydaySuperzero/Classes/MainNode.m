@@ -13,8 +13,7 @@
 #import "CharacterAnimationData.h"
 #import "DialogBox.h"
 #import "NPCSprite.h"
-//#import "SBJson4.h"
-//#import "SBJson4Parser.h"
+#import "Globals.h"
 
 @interface MainNode ()
 
@@ -23,6 +22,7 @@
 @property (nonatomic, strong) CCTiledMapLayer *collision;
 @property (nonatomic, strong) CCTiledMapLayer *top;
 @property (nonatomic, strong) CCTiledMapLayer *under;
+@property (nonatomic, strong) CCTiledMapObjectGroup *og;
 
 @property (nonatomic) CGPoint cameraPos; //relative to map
 @property (nonatomic) double minX;
@@ -31,13 +31,14 @@
 @property (nonatomic) double maxY;
 
 @property (nonatomic, strong) DialogBox *dialogBox;
+@property (nonatomic, strong) NSMutableArray *npcs;
 //@property (nonatomic, strong) MorphMenu *morphMenu;
 
 @end
 
 @implementation MainNode
 
-@synthesize tileMap, background, collision, top, under, minX, minY, maxX, maxY, mainChar, dialogBox;
+@synthesize tileMap, background, collision, top, under, minX, minY, maxX, maxY, mainChar, dialogBox, og, npcs;
 
 - (id)init
 {
@@ -51,6 +52,7 @@
         self.under = [self.tileMap layerNamed:@"Under"];
         self.top = [self.tileMap layerNamed:@"Top"];
         self.collision.visible = NO;
+        self.og = [self.tileMap objectGroupNamed:@"Object Layer 1"];
         
         [self.tileMap anchorCenter];
         [self anchorCenter];
@@ -70,6 +72,22 @@
         cs.destination = cs.position;
         self.mainChar = cs;
         
+        //NPC population
+        self.npcs = [NSMutableArray array];
+        for (NSDictionary *d in self.og.objects)
+        {
+            double x = [d[@"x"] intValue];
+            double y = [d[@"y"] intValue];
+            NSString *name = [d[@"name"] stringByReplacingOccurrencesOfString:@"_" withString:@" "];
+            
+            NPCSprite *npc = [[NPCSprite alloc] init];
+            npc.form = [Utils nameToFormIndex:name];
+            npc.position = ccp(x, y);
+            [self.tileMap addChild:npc];
+            [self.npcs addObject:npc];
+        }
+        //end
+        
         // dialog box
         DialogBox *db = [[DialogBox alloc] initWithTexture:[CCTexture textureWithFile:@"pixel.png"] rect:CGRectMake(0,0,[Utils screenSize].width - 20,100)];
         [self addChild:db z:2];
@@ -84,12 +102,7 @@
         //need to add all the npcs
         
         //test
-        NSURL *pathURL = [[NSBundle mainBundle] URLForResource:@"dialogue" withExtension:@"json"];
-        NSString *path = [pathURL path];
-        NSData *data = [[NSFileManager defaultManager] contentsAtPath:path];
-        NSError *e = nil;
-        NSDictionary *JSON = [NSJSONSerialization JSONObjectWithData: data options: NSJSONReadingMutableContainers error: &e];
-        NSLog(@"%@", JSON);
+        [[Globals sharedInstance] parseDialogue];
     }
     return self;
 }
@@ -179,7 +192,33 @@
     return NO;
 }
 
+//returns npc if it hit, otherwise nil
+- (NPCSprite*)hitsNPC:(CGPoint)mapPoint
+{
+    double minDist = 1000000;
+    NPCSprite *winner = nil;
+    for (NPCSprite *npc in self.npcs)
+    {
+        double curDist = ccpDistance(npc.position, mapPoint);
+        if (curDist < minDist && [npc canInteractWithMain])
+        {
+            minDist = curDist;
+            winner = npc;
+        }
+    }
+    if (minDist <= 10)
+        return winner;
+    return nil;
+}
 
+- (void)triggerInteraction:(CharacterSprite*)cs npc:(NPCSprite*)npc
+{
+    int a = [Globals sharedInstance].form;
+    int b = npc.form;
+    [[Globals sharedInstance] registerInteraction:a npc:b];
+    NSString *dialogue = [[Globals sharedInstance] dialogueForForm:a toForm:b mood:1];
+    NSLog(@"%@", dialogue);
+}
 
 - (void)moveCameraToMapPoint:(CGPoint)point
 {
@@ -206,11 +245,6 @@
 - (void)openDialogBox
 {
     self.dialogBox.visible = YES;
-}
-
-- (void)tryInteractWithNPC:(NPCSprite*)npc
-{
-    
 }
 
 @end

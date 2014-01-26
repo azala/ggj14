@@ -7,6 +7,7 @@
 //
 
 #import "CharacterAnimationData.h"
+#import "Utils.h"
 
 @implementation CharacterAnimationData
 
@@ -14,7 +15,7 @@
 
 - (NSString*)currentFileName
 {
-    return (self.form == 0) ? @"Jamie_forward_1.png" : @"Jamie_backward_1.png";
+    return [NSString stringWithFormat:@"%@.png", [Utils formIndexToName:self.form]];
 }
 
 - (id)init

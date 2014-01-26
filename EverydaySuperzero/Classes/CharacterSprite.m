@@ -61,10 +61,18 @@
         }
         else
         {
+            MainNode *mn = (MainNode*)self.parent.parent;
             CGPoint pos = ccpAdd(self.position, ccpMult(ccpNormalize(v), delta * self.velocity));
-            if ([(MainNode*)self.parent.parent doesCollide:pos])
+            NPCSprite *hit = [mn hitsNPC:pos];
+            
+            if ([mn doesCollide:pos])
             {
                 self.destination = self.position;
+            }
+            else if (hit)
+            {
+                self.destination = self.position;
+                [mn triggerInteraction:self npc:hit];
             }
             else
             {

@@ -16,7 +16,7 @@
 + (CGPoint)point:(CGPoint)point from:(CCNode*)a to:(CCNode*)b;
 + (int)morphSelectionToActualForm:(int)morphSel;
 + (NSString*)formIndexToName:(int)formIndex;
-
++ (int)nameToFormIndex:(NSString*)name;
 + (BOOL)canInteractWithTreasureTree;
 
 @end

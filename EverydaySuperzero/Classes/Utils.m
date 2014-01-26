@@ -32,23 +32,23 @@
 {
     switch (morphSel) {
         case 0:
-            return 0;
+            return 8;//phil
         case 1:
-            return 1;
+            return 6;//russell
         case 2:
-            return 2;
+            return 7;//cityface
         case 3:
-            return 3;
+            return 5;//marj
         case 4:
-            return 4;
+            return 0;//jamie
         case 5:
-            return 5;
+            return 3;//hobo
         case 6:
-            return 6;
+            return 1;//melis
         case 7:
-            return 7;
+            return 2;//august
         case 8:
-            return 8;
+            return 4;//joe
         default:
             return 0;
     }
@@ -66,13 +66,13 @@
         case 3:
             return @"Hobo";
         case 4:
-            return @"Average Joe";
+            return @"Joe";
         case 5:
             return @"Marjane";
         case 6:
             return @"Russell";
         case 7:
-            return @"Pigeon";
+            return @"City Face";
         case 8:
             return @"Phil";
         //nonmorphables
@@ -85,7 +85,7 @@
         case 12:
             return @"Mario";
         case 13:
-            return @"Giovani";
+            return @"Giovanni";
         case 14:
             return @"James";
         case 15:
@@ -94,9 +94,31 @@
             return @"Betty";
         case 17:
             return @"Saki";
+        case 18:
+            return @"Barista";
+        case 19:
+            return @"Coffee Addict";
+        case 20:
+            return @"Goon";
+        case 21:
+            return @"Mobster";
         default:
+        {
             return @"";
+        }
     }
+}
+
++ (int)nameToFormIndex:(NSString*)name
+{
+    for (int i = 0;i <= 21;i++)
+    {
+        if ([[Utils formIndexToName:i] isEqualToString:name])
+        {
+            return i;
+        }
+    }
+    return -1;
 }
 
 + (BOOL)canInteractWithTreasureTree

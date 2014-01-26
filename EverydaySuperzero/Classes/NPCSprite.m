@@ -8,6 +8,7 @@
 
 #import "NPCSprite.h"
 #import "Globals.h"
+#import "Utils.h"
 
 @implementation NPCSprite
 
@@ -17,6 +18,7 @@
 {
     if ((self = [super init]))
     {
+        self.form = 0;
         self.relationship = 0;
         self.currentDialogNumber = 1;
     }
@@ -27,10 +29,10 @@
 {
     //can we see this NPC?
     int gform = [Globals sharedInstance].form;
-    if (self.form == gform)
-    {
-        self.visible = NO;
-    }
+//    if (self.form == gform)
+//    {
+        self.visible = (self.form != gform);
+//    }
     if (self.form == 3)
     {
         self.visible = (gform == 0 || gform == 6);
@@ -41,13 +43,13 @@
 
 - (BOOL)canInteractWithMain
 {
-    int gform = [Globals sharedInstance].form;
+//    int gform = [Globals sharedInstance].form;
     if (!self.visible)
         return NO;
-    if (self.form == 13)
-    {
-        return (gform == 2);
-    }
+//    if (self.form == 13)
+//    {
+//        return (gform == 2);
+//    }
     return YES;
 }
 
@@ -57,11 +59,11 @@
     if (!self.visible)
         return nil;
     if (gform == 6 && self.form == 15)
-        return @"steak.png";
+        return @"Steak.png";
     if (gform == 7)
-        return @"target.png";
+        return @"Target.png";
     if (gform == 1 && self.form == 3)
-        return @"scary_hobo.png";
+        return @"Scary Hobo.png";
     return nil;
 }
 
@@ -80,6 +82,11 @@
     if (s)
     {
         [self applyTextureFromFile:s];
+    }
+    else
+    {
+        NSString *fn = [NSString stringWithFormat:@"%@.png", [Utils formIndexToName:self.form]];
+        [self applyTextureFromFile:fn];
     }
 }
 

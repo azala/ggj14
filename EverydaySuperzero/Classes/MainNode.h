@@ -8,12 +8,14 @@
 
 #import "cocos2d.h"
 
-@class CharacterSprite;
+@class CharacterSprite, NPCSprite;
 
 @interface MainNode : CCNode
 
 @property (nonatomic, strong) CharacterSprite *mainChar;
 
 - (BOOL)doesCollide:(CGPoint)mapPoint;
+- (NPCSprite*)hitsNPC:(CGPoint)mapPoint;
+- (void)triggerInteraction:(CharacterSprite*)cs npc:(NPCSprite*)npc;
 
 @end

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2422EC691894A0D000741342 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2422EC681894A0D000741342 /* Utils.m */; };
+		2422EC6C1894B8F400741342 /* CharacterSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 2422EC6B1894B8F400741342 /* CharacterSprite.m */; };
+		2422EC6F1894B9D300741342 /* CharacterAnimationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2422EC6E1894B9D300741342 /* CharacterAnimationData.m */; };
+		2422EC721894BC5000741342 /* ShellScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2422EC711894BC5000741342 /* ShellScene.m */; };
+		2422EC741894BE5E00741342 /* Jamie_forward_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2422EC731894BE5E00741342 /* Jamie_forward_1.png */; };
 		24ED53981894978F00692381 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED53971894978F00692381 /* QuartzCore.framework */; };
 		24ED539A1894978F00692381 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED53991894978F00692381 /* OpenGLES.framework */; };
 		24ED539C1894978F00692381 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED539B1894978F00692381 /* OpenAL.framework */; };
@@ -241,6 +246,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2422EC671894A0D000741342 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = Classes/Utils.h; sourceTree = "<group>"; };
+		2422EC681894A0D000741342 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utils.m; path = Classes/Utils.m; sourceTree = "<group>"; };
+		2422EC6A1894B8F400741342 /* CharacterSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CharacterSprite.h; path = Classes/CharacterSprite.h; sourceTree = "<group>"; };
+		2422EC6B1894B8F400741342 /* CharacterSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CharacterSprite.m; path = Classes/CharacterSprite.m; sourceTree = "<group>"; };
+		2422EC6D1894B9D300741342 /* CharacterAnimationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CharacterAnimationData.h; path = Classes/CharacterAnimationData.h; sourceTree = "<group>"; };
+		2422EC6E1894B9D300741342 /* CharacterAnimationData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CharacterAnimationData.m; path = Classes/CharacterAnimationData.m; sourceTree = "<group>"; };
+		2422EC701894BC5000741342 /* ShellScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShellScene.h; path = Classes/ShellScene.h; sourceTree = "<group>"; };
+		2422EC711894BC5000741342 /* ShellScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShellScene.m; path = Classes/ShellScene.m; sourceTree = "<group>"; };
+		2422EC731894BE5E00741342 /* Jamie_forward_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jamie_forward_1.png; sourceTree = "<group>"; };
 		24ED53941894978F00692381 /* EverydaySuperzero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverydaySuperzero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24ED53971894978F00692381 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		24ED53991894978F00692381 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -1610,6 +1624,7 @@
 		24ED566D189497EE00692381 /* tiled */ = {
 			isa = PBXGroup;
 			children = (
+				2422EC731894BE5E00741342 /* Jamie_forward_1.png */,
 				24ED566E1894986C00692381 /* desert.tmx */,
 				24ED566F1894986C00692381 /* desert.tsx */,
 				24ED56701894986C00692381 /* tmw_desert_spacing.png */,
@@ -1620,8 +1635,16 @@
 		24ED567518949AA800692381 /* Main Layer */ = {
 			isa = PBXGroup;
 			children = (
+				2422EC671894A0D000741342 /* Utils.h */,
+				2422EC681894A0D000741342 /* Utils.m */,
 				24ED567618949AC300692381 /* MainNode.h */,
 				24ED567718949AC300692381 /* MainNode.m */,
+				2422EC6A1894B8F400741342 /* CharacterSprite.h */,
+				2422EC6B1894B8F400741342 /* CharacterSprite.m */,
+				2422EC6D1894B9D300741342 /* CharacterAnimationData.h */,
+				2422EC6E1894B9D300741342 /* CharacterAnimationData.m */,
+				2422EC701894BC5000741342 /* ShellScene.h */,
+				2422EC711894BC5000741342 /* ShellScene.m */,
 			);
 			name = "Main Layer";
 			sourceTree = "<group>";
@@ -1698,6 +1721,7 @@
 				24ED53C71894978F00692381 /* Icon-120.png in Resources */,
 				24ED56721894986C00692381 /* desert.tsx in Resources */,
 				24ED55CB1894979100692381 /* LICENSE_CCBReader.txt in Resources */,
+				2422EC741894BE5E00741342 /* Jamie_forward_1.png in Resources */,
 				24ED565E1894979100692381 /* newton-ipad.plist in Resources */,
 				24ED565A1894979100692381 /* newton-ipadhd.plist in Resources */,
 				24ED53BD1894978F00692381 /* Icon@2x.png in Resources */,
@@ -1787,6 +1811,7 @@
 				24ED55611894979100692381 /* NSMutableDictionary+WeakReferences.m in Sources */,
 				24ED543E1894978F00692381 /* CCNode+Debug.m in Sources */,
 				24ED53F71894978F00692381 /* CCAnimation.m in Sources */,
+				2422EC6F1894B9D300741342 /* CharacterAnimationData.m in Sources */,
 				24ED55A01894979100692381 /* mat3.c in Sources */,
 				24ED54AC1894979000692381 /* CCTiledMap.m in Sources */,
 				24ED55711894979100692381 /* CCControl.m in Sources */,
@@ -1818,6 +1843,7 @@
 				24ED54B31894979000692381 /* CCTiledMapObjectGroup.m in Sources */,
 				24ED564E1894979100692381 /* NewtonSphere.m in Sources */,
 				24ED55B01894979100692381 /* vec3.c in Sources */,
+				2422EC721894BC5000741342 /* ShellScene.m in Sources */,
 				24ED54331894978F00692381 /* CCLayoutBox.m in Sources */,
 				24ED54301894978F00692381 /* CCLayout.m in Sources */,
 				24ED55531894979000692381 /* OALSuspendHandler.m in Sources */,
@@ -1838,6 +1864,7 @@
 				24ED55641894979100692381 /* OALAudioFile.m in Sources */,
 				24ED548A1894979000692381 /* ccShaders.m in Sources */,
 				24ED559E1894979100692381 /* matrix.c in Sources */,
+				2422EC691894A0D000741342 /* Utils.m in Sources */,
 				24ED54B01894979000692381 /* CCTiledMapLayer.m in Sources */,
 				24ED56441894979100692381 /* HelloWorldScene.m in Sources */,
 				24ED55A41894979100692381 /* neon_matrix_impl.c in Sources */,
@@ -1877,6 +1904,7 @@
 				24ED55451894979000692381 /* ALSource.m in Sources */,
 				24ED544D1894979000692381 /* CCParticleSystem.m in Sources */,
 				24ED54721894979000692381 /* CCScene.m in Sources */,
+				2422EC6C1894B8F400741342 /* CharacterSprite.m in Sources */,
 				24ED54A01894979000692381 /* CCTexture.m in Sources */,
 				24ED55321894979000692381 /* ALCaptureDevice.m in Sources */,
 				24ED546E1894979000692381 /* CCResponderManager.m in Sources */,
@@ -2079,6 +2107,7 @@
 				24ED56691894979100692381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24ED566A1894979100692381 /* Build configuration list for PBXNativeTarget "EverydaySuperzero" */ = {
 			isa = XCConfigurationList;
@@ -2087,6 +2116,7 @@
 				24ED566C1894979100692381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

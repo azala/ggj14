@@ -8,6 +8,8 @@
 
 #import "ShellScene.h"
 #import "MainNode.h"
+#import "CharacterSprite.h"
+#import "MorphMenu.h"
 
 @interface ShellScene ()
 
@@ -25,15 +27,16 @@
     scene.mainNode = [MainNode node];
     [scene addChild:scene.mainNode];
     
-    scene.userInteractionEnabled = YES;
-    scene.exclusiveTouch = YES;
+    scene.userInteractionEnabled = YES;    
     
     return scene;
 }
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event
 {
-    [mainNode touchBegan:touch withEvent:event];
+    [self.mainNode touchBegan:touch withEvent:event];
+    
+    self.mainNode.mainChar.morphMenu.visible = NO;
 }
 
 @end

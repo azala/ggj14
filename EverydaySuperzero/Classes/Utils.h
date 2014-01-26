@@ -7,13 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@class CCNode;
+#import "CCNode.h"
 
 @interface Utils : NSObject
 
 + (CGSize)screenSize;
 + (void)logPoint:(CGPoint)point;
 + (CGPoint)point:(CGPoint)point from:(CCNode*)a to:(CCNode*)b;
+
+@end
+
+@interface CCNode (CCNode_foo)
+
+- (void)anchorCenter;
 
 @end

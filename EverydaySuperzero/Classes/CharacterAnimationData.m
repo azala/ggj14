@@ -10,9 +10,20 @@
 
 @implementation CharacterAnimationData
 
+@synthesize form;
+
 - (NSString*)currentFileName
 {
-    return @"Jamie_forward_1.png";
+    return (self.form == 0) ? @"Jamie_forward_1.png" : @"Jamie_backward_1.png";
+}
+
+- (id)init
+{
+    if ((self = [super init]))
+    {
+        self.form = 0;
+    }
+    return self;
 }
 
 @end

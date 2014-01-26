@@ -8,18 +8,32 @@
 
 #import "CharacterSprite.h"
 #import "CharacterAnimationData.h"
+#import "Utils.h"
+#import "MorphMenu.h"
+#import "MainNode.h"
 
 @implementation CharacterSprite
 
-@synthesize cad, velocity, destination;
+@synthesize cad, velocity, destination, morphMenu;
 
 - (id)init
 {
     if ((self = [super init]))
     {
         self.cad = [[CharacterAnimationData alloc] init];
-        self.anchorPoint = ccp(.5,.5);
+        [self anchorCenter];
         self.velocity = 150;
+        
+        self.userInteractionEnabled = YES;
+        
+        //morph menu
+        MorphMenu *mm = [MorphMenu menu];
+        mm.texture = [CCTexture textureWithFile:@"power_select.png"];
+        [mm anchorCenter];
+        self.morphMenu = mm;
+        [self addChild:mm z:3];
+        mm.userInteractionEnabled = YES;
+        self.morphMenu.visible = NO;
     }
     return self;
 }
@@ -47,10 +61,28 @@
         }
         else
         {
-            self.position = ccpAdd(self.position, ccpMult(ccpNormalize(v), delta * self.velocity));
+            CGPoint pos = ccpAdd(self.position, ccpMult(ccpNormalize(v), delta * self.velocity));
+            if ([(MainNode*)self.parent.parent doesCollide:pos])
+            {
+                self.destination = self.position;
+            }
+            else
+            {
+                self.position = pos;
+            }
         }
     }
+}
+
+- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event
+{
+    
+    self.morphMenu.position = ccp(self.boundingBox.size.width/2,
+                                  self.boundingBox.size.height/2);
+    self.morphMenu.visible = YES;
     
 }
+
+
 
 @end

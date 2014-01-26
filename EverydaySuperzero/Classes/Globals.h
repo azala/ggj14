@@ -1,5 +1,5 @@
 //
-//  CharacterAnimationData.h
+//  Globals.h
 //  EverydaySuperzero
 //
 //  Created by Michel D'Sa on 1/25/14.
@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CharacterAnimationData : NSObject
+@interface Globals : NSObject
 
 @property (nonatomic) int form;
 
-- (NSString*)currentFileName;
++ (Globals*)sharedInstance;
 
 @end

@@ -11,6 +11,7 @@
 #import "Utils.h"
 #import "CharacterSprite.h"
 #import "CharacterAnimationData.h"
+#import "DialogBox.h"
 
 @interface MainNode ()
 
@@ -26,49 +27,58 @@
 @property (nonatomic) double maxX;
 @property (nonatomic) double maxY;
 
-@property (nonatomic, strong) CharacterSprite *mainChar;
+@property (nonatomic, strong) DialogBox *dialogBox;
+//@property (nonatomic, strong) MorphMenu *morphMenu;
 
 @end
 
 @implementation MainNode
 
-@synthesize tileMap, background, collision, top, under, minX, minY, maxX, maxY, mainChar;
+@synthesize tileMap, background, collision, top, under, minX, minY, maxX, maxY, mainChar, dialogBox;
 
 - (id)init
 {
 	if((self = [super init]))
     {
         self.tileMap = [CCTiledMap tiledMapWithFile:@"towne.tmx"];
+        
+        //tile layers
         self.background = [self.tileMap layerNamed:@"Background"];
-        self.collision = [self.tileMap layerNamed:@"Collision"];
+        self.collision = [self.tileMap layerNamed:@"Meta"];
         self.under = [self.tileMap layerNamed:@"Under"];
         self.top = [self.tileMap layerNamed:@"Top"];
-        
         self.collision.visible = NO;
         
-        self.anchorPoint = ccp(.5,.5);
+        [self.tileMap anchorCenter];
+        [self anchorCenter];
         
         [self addChild:self.tileMap z:-1];
         self.tileMap.scale = 2;
-        self.tileMap.anchorPoint = ccp(.5,.5);
+        
         self.tileMap.position = ccp([Utils screenSize].width/2, [Utils screenSize].height/2);
-        
-//        [Utils logPoint:[Utils point:ccp(-[self mapWidth]/2, -[self mapHeight]/2) from:self.tileMap to:self]];
-//        [Utils logPoint:[Utils point:ccp([Utils screenSize].width, [Utils screenSize].height) from:self to:self.tileMap]];
-        
-//        NSLog(@"[%f,%f,%f,%f]", [self cameraMinX], [self cameraMinY], [self cameraMaxX], [self cameraMaxY]);
         self.minX = [self cameraMinX];
         self.minY = [self cameraMinY];
         self.maxX = [self cameraMaxX];
         self.maxY = [self cameraMaxY];
-//
-//        self.tileMap.position = ccp(-[self cameraMinX], -[self cameraMaxY]);
         
         CharacterSprite *cs = [[CharacterSprite alloc] init];
         [self.tileMap addChild:cs z:0];
         cs.position = ccp([self mapWidth]/2, [self mapHeight]/2);
         cs.destination = cs.position;
         self.mainChar = cs;
+        
+        // dialog box
+        DialogBox *db = [[DialogBox alloc] initWithTexture:[CCTexture textureWithFile:@"pixel.png"] rect:CGRectMake(0,0,[Utils screenSize].width - 20,100)];
+        [self addChild:db z:2];
+        CGPoint p = ccp(10, 10);
+        db.anchorPoint = ccp(0, 1);
+        db.userInteractionEnabled = YES;
+        db.visible = NO;
+        p = [[CCDirector sharedDirector] convertToGL:p];
+        db.position = p;
+        self.dialogBox = db;
+        
+        
     }
     return self;
 }
@@ -87,7 +97,6 @@
 {
     CGPoint p = [Utils point:ccp([self mapWidth], 0) from:self.tileMap to:self];
     p.x -= [Utils screenSize].width/2;
-    //    return [Utils point:p from:self to:self.tileMap].x;
     return -p.x;
 }
 
@@ -95,7 +104,6 @@
 {
     CGPoint p = [Utils point:ccp(0, 0) from:self.tileMap to:self];
     p.x += [Utils screenSize].width/2;
-    //    return [Utils point:p from:self to:self.tileMap].x;
     return -p.x;
 }
 
@@ -103,7 +111,6 @@
 {
     CGPoint p = [Utils point:ccp(0, [self mapHeight]) from:self.tileMap to:self];
     p.y -= [Utils screenSize].height/2;
-    //    return [Utils point:p from:self to:self.tileMap].y;
     return -p.y;
 }
 
@@ -111,13 +118,14 @@
 {
     CGPoint p = [Utils point:ccp(0, 0) from:self.tileMap to:self];
     p.y += [Utils screenSize].height/2;
-    //    return [Utils point:p from:self to:self.tileMap].y;
     return -p.y;
 }
 
 - (void)update:(CCTime)delta
 {
     [self moveCameraToMapPoint:self.mainChar.position];
+    
+    
 }
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event
@@ -126,7 +134,7 @@
     touchLocation = [[CCDirector sharedDirector] convertToGL:touchLocation];
     
     CGPoint dest = [Utils point:touchLocation from:self to:self.tileMap];
-    if (dest.x >= 0 && dest.x <= [self mapWidth] && dest.y >= 0 && dest.y <= [self mapHeight])
+    if (dest.x >= 0 && dest.x <= [self mapWidth] && dest.y >= 0 && dest.y <= [self mapHeight] && ![self doesCollide:dest])
     {
         self.mainChar.destination = dest;
 //        [Utils logPoint:[self tileCoordForPosition:self.mainChar.destination]];
@@ -135,13 +143,13 @@
 
 - (BOOL)doesCollide:(CGPoint)mapPoint
 {
-    CGPoint tileCoord = [self tileCoordForPosition:self.mainChar.destination];
+    CGPoint tileCoord = [self tileCoordForPosition:mapPoint];
     int tileGid = [self.collision tileGIDAt:tileCoord];
     if (tileGid) {
         NSDictionary *properties = [self.tileMap propertiesForGID:tileGid];
         if (properties) {
             
-            NSString *collision1 = properties[@"Collidable"];
+            NSString *collision1 = properties[@"Collide"];
             if (collision1 && [collision1 isEqualToString:@"True"]) {
                 return YES;
             }
@@ -182,6 +190,11 @@
     int x = position.x / self.tileMap.tileSize.width;
     int y = ((self.tileMap.mapSize.height * self.tileMap.tileSize.height) - position.y) / self.tileMap.tileSize.height;
     return ccp(x, y);
+}
+
+- (void)openDialogBox
+{
+    self.dialogBox.visible = YES;
 }
 
 @end

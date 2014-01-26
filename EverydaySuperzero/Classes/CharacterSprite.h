@@ -8,7 +8,7 @@
 
 #import "CCSprite.h"
 
-@class CharacterAnimationData;
+@class CharacterAnimationData, MorphMenu;
 
 @interface CharacterSprite : CCSprite
 
@@ -16,5 +16,8 @@
 @property (nonatomic) double velocity;
 
 @property (nonatomic) CGPoint destination;
+@property (nonatomic) int currentForm;
+
+@property (nonatomic, strong) MorphMenu *morphMenu;
 
 @end

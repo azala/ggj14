@@ -27,3 +27,12 @@
 }
 
 @end
+
+@implementation CCNode (CCNode_foo)
+
+- (void)anchorCenter
+{
+    self.anchorPoint = ccp(.5,.5);
+}
+
+@end

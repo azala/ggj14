@@ -20,12 +20,16 @@
 @property (nonatomic, strong) CCTiledMapLayer *foreground;
 
 @property (nonatomic) CGPoint cameraPos; //relative to map
+@property (nonatomic) double minX;
+@property (nonatomic) double minY;
+@property (nonatomic) double maxX;
+@property (nonatomic) double maxY;
 
 @end
 
 @implementation MainNode
 
-@synthesize tileMap, background, meta, foreground;
+@synthesize tileMap, background, meta, foreground, minX, minY, maxX, maxY;
 
 - (id)init
 {
@@ -48,7 +52,11 @@
 //        [Utils logPoint:[Utils point:ccp([Utils screenSize].width, [Utils screenSize].height) from:self to:self.tileMap]];
         
 //        NSLog(@"[%f,%f,%f,%f]", [self cameraMinX], [self cameraMinY], [self cameraMaxX], [self cameraMaxY]);
-//        
+        self.minX = [self cameraMinX];
+        self.minY = [self cameraMinY];
+        self.maxX = [self cameraMaxX];
+        self.maxY = [self cameraMaxY];
+//
 //        self.tileMap.position = ccp(-[self cameraMinX], -[self cameraMaxY]);
         
         CharacterSprite *cs = [[CharacterSprite alloc] init];
@@ -123,7 +131,11 @@
 {
     double dx = point.x - [Utils screenSize].width/2;
     double dy = point.y - [Utils screenSize].height/2;
-    self.tileMap.position = ccp(self.tileMap.position.x - dx, self.tileMap.position.y - dy);
+    
+    double px = MAX(MIN(self.tileMap.position.x - dx, -self.minX), -self.maxX);
+    double py = MAX(MIN(self.tileMap.position.y - dy, -self.minY), -self.maxY);
+    
+    self.tileMap.position = ccp(px, py);
 }
 
 @end

@@ -13,5 +13,8 @@
 @interface CharacterSprite : CCSprite
 
 @property (nonatomic, strong) CharacterAnimationData *cad;
+@property (nonatomic) double velocity;
+
+@property (nonatomic) CGPoint destination;
 
 @end

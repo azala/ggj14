@@ -12,6 +12,10 @@
 		2422EC6F1894B9D300741342 /* CharacterAnimationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2422EC6E1894B9D300741342 /* CharacterAnimationData.m */; };
 		2422EC721894BC5000741342 /* ShellScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2422EC711894BC5000741342 /* ShellScene.m */; };
 		2422EC741894BE5E00741342 /* Jamie_forward_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2422EC731894BE5E00741342 /* Jamie_forward_1.png */; };
+		2422EC791894DD8900741342 /* EverydayHerosOutside3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2422EC751894DD8900741342 /* EverydayHerosOutside3.png */; };
+		2422EC7A1894DD8900741342 /* EverydayHerosInternal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2422EC761894DD8900741342 /* EverydayHerosInternal.png */; };
+		2422EC7B1894DD8900741342 /* EverydayHerosOutside.png in Resources */ = {isa = PBXBuildFile; fileRef = 2422EC771894DD8900741342 /* EverydayHerosOutside.png */; };
+		2422EC7C1894DD8900741342 /* towne.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 2422EC781894DD8900741342 /* towne.tmx */; };
 		24ED53981894978F00692381 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED53971894978F00692381 /* QuartzCore.framework */; };
 		24ED539A1894978F00692381 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED53991894978F00692381 /* OpenGLES.framework */; };
 		24ED539C1894978F00692381 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED539B1894978F00692381 /* OpenAL.framework */; };
@@ -255,6 +259,10 @@
 		2422EC701894BC5000741342 /* ShellScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShellScene.h; path = Classes/ShellScene.h; sourceTree = "<group>"; };
 		2422EC711894BC5000741342 /* ShellScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShellScene.m; path = Classes/ShellScene.m; sourceTree = "<group>"; };
 		2422EC731894BE5E00741342 /* Jamie_forward_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jamie_forward_1.png; sourceTree = "<group>"; };
+		2422EC751894DD8900741342 /* EverydayHerosOutside3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EverydayHerosOutside3.png; sourceTree = "<group>"; };
+		2422EC761894DD8900741342 /* EverydayHerosInternal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EverydayHerosInternal.png; sourceTree = "<group>"; };
+		2422EC771894DD8900741342 /* EverydayHerosOutside.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EverydayHerosOutside.png; sourceTree = "<group>"; };
+		2422EC781894DD8900741342 /* towne.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = towne.tmx; sourceTree = "<group>"; };
 		24ED53941894978F00692381 /* EverydaySuperzero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverydaySuperzero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24ED53971894978F00692381 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		24ED53991894978F00692381 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -1628,6 +1636,10 @@
 				24ED566E1894986C00692381 /* desert.tmx */,
 				24ED566F1894986C00692381 /* desert.tsx */,
 				24ED56701894986C00692381 /* tmw_desert_spacing.png */,
+				2422EC751894DD8900741342 /* EverydayHerosOutside3.png */,
+				2422EC761894DD8900741342 /* EverydayHerosInternal.png */,
+				2422EC771894DD8900741342 /* EverydayHerosOutside.png */,
+				2422EC781894DD8900741342 /* towne.tmx */,
 			);
 			name = tiled;
 			sourceTree = "<group>";
@@ -1730,15 +1742,18 @@
 				24ED53C11894978F00692381 /* Icon-72@2x.png in Resources */,
 				24ED53B21894978F00692381 /* Default.png in Resources */,
 				24ED53BB1894978F00692381 /* Icon.png in Resources */,
+				2422EC7A1894DD8900741342 /* EverydayHerosInternal.png in Resources */,
 				24ED53C91894978F00692381 /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
 				24ED53B81894978F00692381 /* Default-Landscape~ipad.png in Resources */,
 				24ED53CD1894978F00692381 /* Icon-Small.png in Resources */,
 				24ED53CB1894978F00692381 /* Icon-Small-50.png in Resources */,
 				24ED56561894979100692381 /* fire.plist in Resources */,
 				24ED56581894979100692381 /* fire.png in Resources */,
+				2422EC7B1894DD8900741342 /* EverydayHerosOutside.png in Resources */,
 				24ED56601894979100692381 /* newton-ipad.png in Resources */,
 				24ED55B41894979100692381 /* LICENSE_Kazmath.txt in Resources */,
 				24ED53BF1894978F00692381 /* Icon-72.png in Resources */,
+				2422EC791894DD8900741342 /* EverydayHerosOutside3.png in Resources */,
 				24ED550D1894979000692381 /* LICENSE_cocos2d.txt in Resources */,
 				24ED565C1894979100692381 /* newton-ipadhd.png in Resources */,
 				24ED56731894986C00692381 /* tmw_desert_spacing.png in Resources */,
@@ -1751,6 +1766,7 @@
 				24ED56391894979100692381 /* LICENSE_Chipmunk.txt in Resources */,
 				24ED53D31894978F00692381 /* Icon-Spotlight-iOS7@2x.png in Resources */,
 				24ED53C31894978F00692381 /* Icon-76.png in Resources */,
+				2422EC7C1894DD8900741342 /* towne.tmx in Resources */,
 				24ED55991894979100692381 /* ChangeLog in Resources */,
 				24ED53D81894978F00692381 /* iTunesArtwork@2x in Resources */,
 			);

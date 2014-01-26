@@ -23,7 +23,7 @@
 
 +(CGPoint)point:(CGPoint)point from:(CCNode*)a to:(CCNode*)b
 {
-    return [b convertToNodeSpaceAR:[a convertToWorldSpaceAR:point]];
+    return [b convertToNodeSpace:[a convertToWorldSpace:point]];
 }
 
 @end

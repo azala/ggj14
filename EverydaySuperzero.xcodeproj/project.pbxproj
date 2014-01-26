@@ -24,6 +24,8 @@
 		2422EC931895261200741342 /* towne.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 2422EC921895261200741342 /* towne.tmx */; };
 		2422EC951895263700741342 /* meta_tiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 2422EC941895263700741342 /* meta_tiles.png */; };
 		2422EC971895265000741342 /* EverydayHerosOutside.png in Resources */ = {isa = PBXBuildFile; fileRef = 2422EC961895265000741342 /* EverydayHerosOutside.png */; };
+		2422EC991895332E00741342 /* Jamie_left_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2422EC981895332E00741342 /* Jamie_left_1.png */; };
+		2422ECB31895432300741342 /* dialogue.json in Resources */ = {isa = PBXBuildFile; fileRef = 2422ECB21895432300741342 /* dialogue.json */; };
 		24ED53981894978F00692381 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED53971894978F00692381 /* QuartzCore.framework */; };
 		24ED539A1894978F00692381 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED53991894978F00692381 /* OpenGLES.framework */; };
 		24ED539C1894978F00692381 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED539B1894978F00692381 /* OpenAL.framework */; };
@@ -33,7 +35,6 @@
 		24ED53A41894978F00692381 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED53A31894978F00692381 /* Foundation.framework */; };
 		24ED53A61894978F00692381 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED53A51894978F00692381 /* CoreGraphics.framework */; };
 		24ED53A81894978F00692381 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED53A71894978F00692381 /* CoreText.framework */; };
-		24ED53AE1894978F00692381 /* libObjectiveChipmunk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24ED53AB1894978F00692381 /* libObjectiveChipmunk.a */; };
 		24ED53B21894978F00692381 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 24ED53B11894978F00692381 /* Default.png */; };
 		24ED53B41894978F00692381 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24ED53B31894978F00692381 /* Default@2x.png */; };
 		24ED53B61894978F00692381 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24ED53B51894978F00692381 /* Default-568h@2x.png */; };
@@ -247,16 +248,6 @@
 		24ED567818949AC300692381 /* MainNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 24ED567718949AC300692381 /* MainNode.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		24ED53AC1894978F00692381 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 24ED538C1894978F00692381 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 24ED53AA1894978F00692381;
-			remoteInfo = ObjectiveChipmunk;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		2422EC671894A0D000741342 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = Classes/Utils.h; sourceTree = "<group>"; };
 		2422EC681894A0D000741342 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utils.m; path = Classes/Utils.m; sourceTree = "<group>"; };
@@ -283,6 +274,8 @@
 		2422EC921895261200741342 /* towne.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = towne.tmx; sourceTree = "<group>"; };
 		2422EC941895263700741342 /* meta_tiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meta_tiles.png; sourceTree = "<group>"; };
 		2422EC961895265000741342 /* EverydayHerosOutside.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EverydayHerosOutside.png; sourceTree = "<group>"; };
+		2422EC981895332E00741342 /* Jamie_left_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jamie_left_1.png; sourceTree = "<group>"; };
+		2422ECB21895432300741342 /* dialogue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dialogue.json; sourceTree = "<group>"; };
 		24ED53941894978F00692381 /* EverydaySuperzero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverydaySuperzero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24ED53971894978F00692381 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		24ED53991894978F00692381 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -740,7 +733,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24ED53AE1894978F00692381 /* libObjectiveChipmunk.a in Frameworks */,
 				24ED539C1894978F00692381 /* OpenAL.framework in Frameworks */,
 				24ED53A21894978F00692381 /* UIKit.framework in Frameworks */,
 				24ED53981894978F00692381 /* QuartzCore.framework in Frameworks */,
@@ -1652,6 +1644,7 @@
 		24ED566D189497EE00692381 /* tiled */ = {
 			isa = PBXGroup;
 			children = (
+				2422EC981895332E00741342 /* Jamie_left_1.png */,
 				2422EC941895263700741342 /* meta_tiles.png */,
 				2422EC921895261200741342 /* towne.tmx */,
 				2422EC8E18951A6E00741342 /* power_select.png */,
@@ -1664,6 +1657,7 @@
 				2422EC751894DD8900741342 /* EverydayHerosOutside3.png */,
 				2422EC761894DD8900741342 /* EverydayHerosInternal.png */,
 				2422EC961895265000741342 /* EverydayHerosOutside.png */,
+				2422ECB21895432300741342 /* dialogue.json */,
 			);
 			name = tiled;
 			sourceTree = "<group>";
@@ -1707,7 +1701,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				24ED53AD1894978F00692381 /* PBXTargetDependency */,
 			);
 			name = EverydaySuperzero;
 			productName = EverydaySuperzero;
@@ -1737,6 +1730,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Michel D'Sa";
+				TargetAttributes = {
+					24ED53931894978F00692381 = {
+						DevelopmentTeam = 6JBPC845A6;
+					};
+				};
 			};
 			buildConfigurationList = 24ED538F1894978F00692381 /* Build configuration list for PBXProject "EverydaySuperzero" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1786,11 +1784,13 @@
 				24ED55B41894979100692381 /* LICENSE_Kazmath.txt in Resources */,
 				24ED53BF1894978F00692381 /* Icon-72.png in Resources */,
 				2422EC791894DD8900741342 /* EverydayHerosOutside3.png in Resources */,
+				2422ECB31895432300741342 /* dialogue.json in Resources */,
 				24ED550D1894979000692381 /* LICENSE_cocos2d.txt in Resources */,
 				24ED565C1894979100692381 /* newton-ipadhd.png in Resources */,
 				2422EC951895263700741342 /* meta_tiles.png in Resources */,
 				24ED56731894986C00692381 /* tmw_desert_spacing.png in Resources */,
 				24ED53B61894978F00692381 /* Default-568h@2x.png in Resources */,
+				2422EC991895332E00741342 /* Jamie_left_1.png in Resources */,
 				2422EC8F18951A6E00741342 /* power_select.png in Resources */,
 				24ED53D61894978F00692381 /* iTunesArtwork in Resources */,
 				2422EC911895255B00741342 /* Jamie_backward_1.png in Resources */,
@@ -2011,14 +2011,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		24ED53AD1894978F00692381 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 24ED53AA1894978F00692381 /* ObjectiveChipmunk */;
-			targetProxy = 24ED53AC1894978F00692381 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
 		24ED56651894979100692381 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2099,6 +2091,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2124,6 +2117,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EverydaySuperzero/Supporting Files/Prefix.pch";

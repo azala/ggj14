@@ -12,5 +12,8 @@
 
 @property (nonatomic) int relationship;
 @property (nonatomic) int currentDialogNumber;
+@property (nonatomic) int form;
+
+- (BOOL)canInteractWithMain;
 
 @end

@@ -14,6 +14,10 @@
 + (CGSize)screenSize;
 + (void)logPoint:(CGPoint)point;
 + (CGPoint)point:(CGPoint)point from:(CCNode*)a to:(CCNode*)b;
++ (int)morphSelectionToActualForm:(int)morphSel;
++ (NSString*)formIndexToName:(int)formIndex;
+
++ (BOOL)canInteractWithTreasureTree;
 
 @end
 

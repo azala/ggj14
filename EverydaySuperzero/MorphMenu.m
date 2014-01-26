@@ -29,7 +29,7 @@
     int xTile = (int)((touchLocation.x - 1) / (self.boundingBox.size.width / 3));
     int yTile = (int)((touchLocation.y - 1) / (self.boundingBox.size.height / 3));
     
-    [Globals sharedInstance].form = 3 * yTile + xTile;
+    [Globals sharedInstance].form = [Utils morphSelectionToActualForm:3 * yTile + xTile];
     
     ((CharacterSprite*)self.parent).cad.form = [Globals sharedInstance].form;
     

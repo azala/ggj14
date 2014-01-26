@@ -12,6 +12,9 @@
 #import "CharacterSprite.h"
 #import "CharacterAnimationData.h"
 #import "DialogBox.h"
+#import "NPCSprite.h"
+//#import "SBJson4.h"
+//#import "SBJson4Parser.h"
 
 @interface MainNode ()
 
@@ -78,7 +81,15 @@
         db.position = p;
         self.dialogBox = db;
         
+        //need to add all the npcs
         
+        //test
+        NSURL *pathURL = [[NSBundle mainBundle] URLForResource:@"dialogue" withExtension:@"json"];
+        NSString *path = [pathURL path];
+        NSData *data = [[NSFileManager defaultManager] contentsAtPath:path];
+        NSError *e = nil;
+        NSDictionary *JSON = [NSJSONSerialization JSONObjectWithData: data options: NSJSONReadingMutableContainers error: &e];
+        NSLog(@"%@", JSON);
     }
     return self;
 }
@@ -195,6 +206,11 @@
 - (void)openDialogBox
 {
     self.dialogBox.visible = YES;
+}
+
+- (void)tryInteractWithNPC:(NPCSprite*)npc
+{
+    
 }
 
 @end

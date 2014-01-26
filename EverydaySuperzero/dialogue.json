@@ -3,293 +3,293 @@
 		"To_Augustus": {
 			"Mood_1": {
 				"Phrase_1": "Did you just move in? You've probably noticed my house down the street. It's the big one.",
-				"Phrase_2": "Yep, got 5 million dollars worth of solid gold countertops installed last week.",
-				},
+				"Phrase_2": "Yep, got 5 million dollars worth of solid gold countertops installed last week."
+				}
 		
 		},
 		"To_Barista": {
 			"Mood_1": {
 				"Phrase_1": "Coffee or tea?",
-				"Phrase_2": "Have you seen the sugar dispenser? People keep misplacing it.",
-				},
+				"Phrase_2": "Have you seen the sugar dispenser? People keep misplacing it."
+				}
 
 		},
 		"To_Betty": {
 			"Mood_1": {
 				"Phrase_1": "Hello there, dearie. I haven't seen you around before. Have you come to see the pigeons, too?",
-				"Phrase_2": "That one always looks at me like it has something to say. But it's too shy to speak up!",
-				},
+				"Phrase_2": "That one always looks at me like it has something to say. But it's too shy to speak up!"
+				}
 
 		},
 		"To_Carl": {
 			"Mood_1": {
 				"Phrase_1": "Fifteen years with the city, you'd a man would know how to change a lightbulb.",
-				"Phrase_2": "Damn thing won't light up.",
-				},
+				"Phrase_2": "Damn thing won't light up."
+				}
 
 		},
 		"To_City_Face": {
 			"Mood_1": {
 				"Phrase_1": "Bururu.",
-				"Phrase_2": "Cooo",
-				},
+				"Phrase_2": "Cooo"
+				}
 
 		},
 		"To_Coffee_Addict": {
 			"Mood_1": {
 				"Phrase_1": "I can't stay awake unless my blood is at least eight percent caffeine.",
-				"Phrase_2": "Some people think that energy drinks are the way of the future. \nNot me, I'm a traditionalist.",
-				},
+				"Phrase_2": "Some people think that energy drinks are the way of the future. \nNot me, I'm a traditionalist."
+				}
 
 		},
 		"To_Giovanni": {
 			"Mood_1": {
-				"Phrase_1": "What are you doing here? \nLook, you never saw this. \Giddout and keep quiet \and we won't have to break your legs.",
-				"Phrase_2": "Go on, shoo!",
-				},
+				"Phrase_1": "What are you doing here? \nLook, you never saw this. \nGiddout and keep quiet \nand we won't have to break your legs.",
+				"Phrase_2": "Go on, shoo!"
+				}
 
 		},
 		"To_Goon": {
 			"Mood_1": {
 				"Phrase_1": "Welcome to our fine legitimate business establishment. \nCome on in and browse our selection of innocuous goods.",
-				"Phrase_2": "Toothbrushes, \nheating pads, \nmotor oil, \parachutes... \nIf it's legal, we've got it!",
-				},
+				"Phrase_2": "Toothbrushes, \nheating pads, \nmotor oil, \nparachutes... \nIf it's legal, we've got it!"
+				}
 
 		},
 		"To_Hobo": {
 			"Mood_1": {
 				"Phrase_1": "Hey there. Got a quarter?",
-				"Phrase_2": "Could use a bite to eat.",
-				},
+				"Phrase_2": "Could use a bite to eat."
+				}
 
 		},
 		"To_James": {
 			"Mood_1": {
 				"Phrase_1": "Welcome to the neighborhood.",
-				"Phrase_2": "I'm sorry, I'm a bit preoccupied at the moment.",
-				},
+				"Phrase_2": "I'm sorry, I'm a bit preoccupied at the moment."
+				}
 
 		},
 		"To_Joe": {
 			"Mood_1": {
-				"Phrase_1": "'Sup? \nYou new around here? \nDon't you worry 'bout a thing, \nJoe here's got your back.",
-				"Phrase_2": "Joe Cool. \nG. I. Joe. \n Joe the Bro. \nCuppa Joe. \n... \n.... \nAverage Joe.",
-				},
-
+				"Phrase_1": "'Sup? You new around here? Don't you worry 'bout a thing, Joe here's got your back.",
+				"Phrase_2": "Joe Cool. G.I. Joe. Joe the Bro. Cuppa Joe. ... .... Average Joe."
+				}
+		},
 		"To_Martha": {
 			"Mood_1": {
-				"Hey there. Mae's not looking this way is she?",
-				"Phrase_2": "Mae's muffins are always dry and greasy. It sounds like an impossible combination, but some people are masters in the art of disgusting cuisine.!",
-				},
+				"Phrase_1": "Hey there. Mae's not looking this way, is she?",
+				"Phrase_2": "Mae's muffins are always dry and greasy. It sounds like an impossible combination, but some people are masters in the art of disgusting cuisine."
+				}
 
 
 		},
 		"To_Mae": {
 			"Mood_1": {
-				"Phrase_1": "Good morning! \nI'm vascularizing my extensors. \nCare to join me?",
-				"Phrase_2": "You know you're doing it right when you need someone else to untangle you.",
-				},
+				"Phrase_1": "Good morning! I'm vascularizing my extensors. Care to join me?",
+				"Phrase_2": "You know you're doing it right when you need someone else to untangle you."
+				}
 
 		},
 		"To_Marjane": {
 			"Mood_1": {
-				"Phrase_1": "Good morning. \nAre you new here? \nI'm busy at the moment, but come tell me your story sometime, ok?",
-				"Phrase_2": "I've been cobbling together this novel for many years now, but I can't quite make it stick...",
-				},
+				"Phrase_1": "Good morning. Are you new here? \nI'm busy at the moment, but come tell me your story sometime, ok?",
+				"Phrase_2": "I've been cobbling together this novel for many years now, but I can't quite make it stick..."
+				}
 
 		},
 		"To_Mario": {
 			"Mood_1": {
 				"Phrase_1": "Ten bucks for a hot dog, whaddaya say?",
-				"Phrase_2": "(...the scent is rather unappetizing)",
-				},
+				"Phrase_2": "(...the scent is rather unappetizing)"
+				}
 			},
 		"To_Melissa": {
 			"Mood_1": {
 				"Phrase_1": "Hi! \nI think we gave Dad a few more gray hairs back there. High five!",
-				"Phrase_2": "Hey, I'll show you something cool if you get me some candy!",
-				},
+				"Phrase_2": "Hey, I'll show you something cool if you get me some candy!"
+				}
 
 		},
 		"To_Mobsters": {
 			"Mood_1": {
 				"Phrase_1": "Want to try your hand at a little game?",
-				"Phrase_2": "No pressure, we keep it casual. But of course, if you lose, you are going to have to pay up.",
-				},
+				"Phrase_2": "No pressure, we keep it casual. But of course, if you lose, you are going to have to pay up."
+				}
 
 		},
 		"To_Paulo": {
 			"Mood_1": {
 				"Phrase_1": "Mornin'! \nNothing for you today, sorry.",
-				"Phrase_2": "It feels sometimes like this route never ends.",
-				},
+				"Phrase_2": "It feels sometimes like this route never ends."
+				}
 
 		},
 		"To_Phil": {
 			"Mood_1": {
 				"Phrase_1": "Welcome to town. \nKeep out of trouble \nand we'll be good as gravy, \nyou hear?",
-				"Phrase_2": "I've got my eye on you.",
-				},
+				"Phrase_2": "I've got my eye on you."
+				}
 
 		},
 		"To_Russell": {
 			"Mood_1": {
 				"Phrase_1": "Bao!",
-				"Phrase_2": "*Lick*",
-				},
+				"Phrase_2": "*Lick*"
+				}
 
 		},
 		"To_Saki": {
 			"Mood_1": {
 				"Phrase_1": "I'm writing my thesis on the Alcubierre drive. \nBy contracting space in front of your spaceship \nand expanding it behind, you could theoretically \ntravel faster than light. \nReal-life warp!",
-				"Phrase_2": "I'm going to visit Betelgeuse someday.",
-				},
+				"Phrase_2": "I'm going to visit Betelgeuse someday."
+				}
 
 		}
-	}
+	},
 	"As_Augustus": {
 				"To_Augustus": {
 			"Mood_1": {
-				"Phrase_1": "It's funny - once you get to be this rich, everyone gives you things for free.",
-				},
+				"Phrase_1": "It's funny - once you get to be this rich, everyone gives you things for free."
+				}
 		
 		},
 		"To_Barista": {
 			"Mood_1": {
 				"Phrase_1": "Good morning, sir! \nTriple espresso with golf flakes again?",
-				"Phrase_2": "So, uh, how about a raise, maybe...?",
-				},
+				"Phrase_2": "So, uh, how about a raise, maybe...?"
+				}
 
 		},
 		"To_Betty": {
 			"Mood_1": {
 				"Phrase_1": "Augustus dearie how are you today?",
-				"Phrase_2": "Why I remember when you were just a young lad. You were so cute, encouraging the neighborhood kids to make smart investments.",
-				},
+				"Phrase_2": "Why I remember when you were just a young lad. You were so cute, encouraging the neighborhood kids to make smart investments."
+				}
 
 		},
 		"To_Carl": {
 			"Mood_1": {
 				"Phrase_1": "Not to worry sir, got everything under control here.",
-				"Phrase_2": "No sir, I never lollygag. I'm just…problem solving here.",
-				},
+				"Phrase_2": "No sir, I never lollygag. I'm just… problem solving here."
+				}
 
 		},
 		"To_City_Face": {
 			"Mood_1": {
 				"Phrase_1": "CooCoo",
-				"Phrase_2": "(poop)",
-				},
+				"Phrase_2": "(poop)"
+				}
 
 		},
 		"To_Coffee_Addict": {
 			"Mood_1": {
 				"Phrase_1": "I think she's got your coffee ready, I saw her making it before you came in.",
-				"Phrase_2": "Did you get that coffee? If not, I might go grab it.",
-				},
+				"Phrase_2": "Did you get that coffee? If not, I might go grab it."
+				}
 
 		},
 		"To_Giovanni": {
 			"Mood_1": {
 				"Phrase_1": "Augustus! How are you today?",
-				"Phrase_2": "Made any interesting 'investments' lately?",
-				},
+				"Phrase_2": "Made any interesting 'investments' lately?"
+				}
 
 		},
 		"To_Goon": {
 			"Mood_1": {
 				"Phrase_1": "Hi Sir.",
-				"Phrase_2": "Yes Sir.",
-				},
+				"Phrase_2": "Yes Sir."
+				}
 
 		},
 		"To_Hobo": {
 			"Mood_1": {
 				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_2": "..."
+				}
 
 		},
 		"To_James": {
 			"Mood_1": {
 				"Phrase_1": "Hello Sir, I've got your lunch all prepared if you'd like to go inside.",
-				"Phrase_2": "No, your shoes will be shined by the end of the day, not to worry.",
-				},
+				"Phrase_2": "No, your shoes will be shined by the end of the day, not to worry."
+				}
 
 		},
 		"To_Joe": {
 			"Mood_1": {
 				"Phrase_1": "...",
-				"Phrase_2": "Ever played frisbee before?",
-				},
+				"Phrase_2": "Ever played frisbee before?"
+				}
 		},
 		"To_Martha": {
 			"Mood_1": {
 				"Phrase_1": "I'm looking for a new job, but I don't think I'll make it through the interview if I'm dressed like this.",
-				"Phrase_2": "Ever played frisbee before?",
-				},
+				"Phrase_2": "Ever played frisbee before?"
+				}
 
 		},
 		"To_Mae": {
 			"Mood_1": {
 				"Phrase_1": "Don't look at me like that I have a right to do yoga in the park. It's not like I'm doing yoga on your lawn.",
-				"Phrase_2": "Go away, you're breaking my concentration.",
-				},
+				"Phrase_2": "Go away, you're breaking my concentration."
+				}
 
 		},
 		"To_Marjane": {
 			"Mood_1": {
 				"Phrase_1": "Hi Augustus, how's Melissa?",
-				"Phrase_2": "I think she'll have no problem getting into a good school. She's a smart girl.",
-				},
-
+				"Phrase_2": "I think she'll have no problem getting into a good school. She's a smart girl."
+				}
+		},
 
 		"To_Mario": {
 			"Mood_1": {
 				"Phrase_1": "Ah, my primary investor! Here, have a hot dog on the house!",
-				"Phrase_2": "Not sure when the next board meeting will be, but I'd like to tell you about a new menu item I'm thinking about.",
-				},
+				"Phrase_2": "Not sure when the next board meeting will be, but I'd like to tell you about a new menu item I'm thinking about."
+				}
 			},
 		"To_Melissa": {
 			"Mood_1": {
 				"Phrase_1": "Don't tell me what to do!",
-				"Phrase_2": "You're not the boss of me!",
-				},
+				"Phrase_2": "You're not the boss of me!"
+				}
 
 		},
 		"To_Mobsters": {
 			"Mood_1": {
 				"Phrase_1": "Hi Sir.",
-				"Phrase_2": "Want to play some poker sir?",
-				},
+				"Phrase_2": "Want to play some poker sir?"
+				}
 
 		},
 		"To_Paulo": {
 			"Mood_1": {
 				"Phrase_1": "I just dropped off a couple packages with James.",
-				"Phrase_2": "Did you order something from the himalayas? It had a lot of postage on it.",
-				},
+				"Phrase_2": "Did you order something from the himalayas? It had a lot of postage on it."
+				}
 
 		},
 		"To_Phil": {
 			"Mood_1": {
 				"Phrase_1": "Don't mind me sir, just patrolling the street, keeping the neighborhood safe.",
-				"Phrase_2": "Last month I caught a suspicious individual around your house. \nTurns out he was just the sprinkler repairman, but you never know!",
-				},
+				"Phrase_2": "Last month I caught a suspicious individual around your house. \nTurns out he was just the sprinkler repairman, but you never know!"
+				}
 
 		},
 		"To_Russell": {
 			"Mood_1": {
 				"Phrase_1": "Arf!",
-				"Phrase_2": "(tail wags)",
-				},
+				"Phrase_2": "(tail wags)"
+				}
 
 		},
 		"To_Saki": {
 			"Mood_1": {
 				"Phrase_1": "Sir, have you given any more thought to my scholarship proposal?",
-				"Phrase_2": "I'd really like to apply to grad school, but I'm not sure where I'll get the funds.",
-				},
+				"Phrase_2": "I'd really like to apply to grad school, but I'm not sure where I'll get the funds."
+				}
 
 		}
 	},
@@ -297,148 +297,148 @@
 				"To_Augustus": {
 			"Mood_1": {
 				"Phrase_1": "Get out of here you filthy animal",
-				"Phrase_2": "Oh god it pooped on me!",
-				},
+				"Phrase_2": "Oh god it pooped on me!"
+				}
 		
 		},
 		"To_Barista": {
 			"Mood_1": {
 				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_2": "..."
+				}
 
 		},
 		"To_Betty": {
 			"Mood_1": {
 				"Phrase_1": "What a lovely birdy.",
-				"Phrase_2": "Oh, some poop!",
-				},
+				"Phrase_2": "Oh, some poop!"
+				}
 
 		},
 		"To_Carl": {
 			"Mood_1": {
 				"Phrase_1": "Please don't poop on me bird.",
-				"Phrase_2": "Dang it bird, I said don't poop on me!",
-				},
+				"Phrase_2": "Dang it bird, I said don't poop on me!"
+				}
 
 		},
 		"To_City_Face": {
 			"Mood_1": {
 				"Phrase_1": "Coo",
-				"Phrase_2": "Coooo",
-				},
+				"Phrase_2": "Coooo"
+				}
 
 		},
 		"To_Coffee_Addict": {
 			"Mood_1": {
 				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_2": "..."
+				}
 
 		},
 		"To_Giovanni": {
 			"Mood_1": {
 				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_2": "..."
+				}
 
 		},
 		"To_Goon": {
 			"Mood_1": {
 				"Phrase_1": "Scram",
-				"Phrase_2": "Damn birds pooping everywhere",
-				},
+				"Phrase_2": "Damn birds pooping everywhere"
+				}
 
 		},
 		"To_Hobo": {
 			"Mood_1": {
 				"Phrase_1": "Hey birdy, if you go poop on that rich man I think we could be friends.",
-				"Phrase_2": "Way to go bird, now aim that poop at Augustus.",
-				},
+				"Phrase_2": "Way to go, bird. Now aim that poop at Mister Moneybags over there."
+				}
 
 		},
 		"To_James": {
 			"Mood_1": {
 				"Phrase_1": "Watch out bird, Augustus likes to hunt pigeons like you.",
-				"Phrase_2": "And if you poop on me again I'll send him your way!",
-				},
+				"Phrase_2": "And if you poop on me again I'll send him your way!"
+				}
 
 		},
 		"To_Joe": {
 			"Mood_1": {
 				"Phrase_1": "Sorry bird I don't have any bread for you.",
-				"Phrase_2": "Well you don't have to get all huffy about it.",
-				},
+				"Phrase_2": "Well you don't have to get all huffy about it."
+				}
 
 		},
 		"To_Martha": {
 			"Mood_1": {
 				"Phrase_1": "Hey bird, see that lady doing yoga over there? Go get her.",
-				"Phrase_2": "No, not me!",
-				},
+				"Phrase_2": "No, not me!"
+				}
 
 
 		},
 		"To_Mae": {
 			"Mood_1": {
 				"Phrase_1": "You're disrupting my flow bird.",
-				"Phrase_2": "Get off my yoga mat!",
-				},
+				"Phrase_2": "Get off my yoga mat!"
+				}
 
 		},
 		"To_Marjane": {
 			"Mood_1": {
 				"Phrase_1": "Hmm, maybe I can add a bird into my novel as a symbol of hope and renewal.",
-				"Phrase_2": "Or maybe I'll just leave birds out of it completely.",
-				},
+				"Phrase_2": "Or maybe I'll just leave birds out of it completely."
+				}
 
 		},
 		"To_Mario": {
 			"Mood_1": {
 				"Phrase_1": "No way bird, you're not getting these hot dog buns. Nice try.",
-				"Phrase_2": "Stop bird, get out of here!",
-				},
+				"Phrase_2": "Stop bird, get out of here!"
+				}
 			},
 		"To_Melissa": {
 			"Mood_1": {
 				"Phrase_1": "Here biddy, biddy, biddy. Want some candy?",
-				"Phrase_2": "Candy's great, huh bird?",
-				},
+				"Phrase_2": "Candy's great, huh bird?"
+				}
 
 		},
 		"To_Mobsters": {
 			"Mood_1": {
 				"Phrase_1": "Scram.",
-				"Phrase_2": "Get out of here.",
-				},
+				"Phrase_2": "Get out of here."
+				}
 
 		},
 		"To_Paulo": {
 			"Mood_1": {
 				"Phrase_1": "Morning bird, sorry no mail for you today.",
-				"Phrase_2": "Bird, I said no mail, stopping trying to poop on me!",
-				},
+				"Phrase_2": "Bird, I said no mail, stopping trying to poop on me!"
+				}
 
 		},
 		"To_Phil": {
 			"Mood_1": {
 				"Phrase_1": "Look, I like you well enough, you pick up crumbs and you remind us all of nature in this urban jungle. But you have got to stop pooping on people.",
-				"Phrase_2": "If you poop on me again I'll arrest you on charges of obstruction of justice.",
-				},
+				"Phrase_2": "If you poop on me again I'll arrest you on charges of obstruction of justice."
+				}
 
 		},
 		"To_Russell": {
 			"Mood_1": {
 				"Phrase_1": "(Growl)",
-				"Phrase_2": "Bark!",
-				},
+				"Phrase_2": "Bark!"
+				}
 
 		},
 		"To_Saki": {
 			"Mood_1": {
 				"Phrase_1": "Stop looking at me bird.",
-				"Phrase_2": "I'm trying to study!",
-				},
+				"Phrase_2": "I'm trying to study!"
+				}
 
 		}
 	},
@@ -446,421 +446,388 @@
 				"To_Augustus": {
 			"Mood_1": {
 				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_2": "..."
+				}
 		
 		},
 		"To_Barista": {
 			"Mood_1": {
 				"Phrase_1": "Sorry, paying customers only.",
-				"Phrase_2": "Maybe Augustus will buy you a coffee.",
-				},
+				"Phrase_2": "Maybe Augustus will buy you a coffee."
+				}
 
 		},
 		"To_Betty": {
 			"Mood_1": {
-				"Phrase_1": "Hello there dearie.",
-				"Phrase_2": "How has the winter been for you? I hope not too cold.",
-				},
+				"Phrase_1": "Hello there dearie. How has the winter been for you? I hope not too cold.",
+				"Phrase_2": "If I ever find my husband's buried treasure, I'll make sure to give some to you. I want you to be happy!"
+				}
 
 		},
 		"To_Carl": {
 			"Mood_1": {
 				"Phrase_1": "Hey pal, how's it join?",
-				"Phrase_2": "No offense, but if you want to get anywhere in this world, you're going to have to shower sometimes.",
-				},
+				"Phrase_2": "No offense, but if you want to get anywhere in this world, you're going to have to shower sometimes."
+				}
 
 		},
 		"To_City_Face": {
 			"Mood_1": {
 				"Phrase_1": "(Rustles feathers)",
-				"Phrase_2": "Coo",
-				},
+				"Phrase_2": "Coo"
+				}
 
 		},
 		"To_Coffee_Addict": {
 			"Mood_1": {
 				"Phrase_1": "Want this croissant? Came with my coffee, but I'm not going to eat it.",
-				"Phrase_2": "I usually get one of those everyday for being a loyal customer. Come back tomorrow, you can have my croissant then too.",
-				},
+				"Phrase_2": "I usually get one of those everyday for being a loyal customer. Come back tomorrow, you can have my croissant then too."
+				}
 
 		},
 		"To_Giovanni": {
 			"Mood_1": {
 				"Phrase_1": "I've got a little freelance work for you if you're interested.",
-				"Phrase_2": "Not interested? Well I'm here if you change your mind.",
-				},
+				"Phrase_2": "Not interested? Well I'm here if you change your mind."
+				}
 
 		},
 		"To_Goon": {
 			"Mood_1": {
 				"Phrase_1": "Got something to say to Giovanni? Going to have to wait your turn.",
-				"Phrase_2": "We've got a little poker game going, can't let you play though. Maybe another time.",
-				},
+				"Phrase_2": "We've got a little poker game going, can't let you play though. Maybe another time."
+				}
 
 		},
 		"To_Hobo": {
 			"Mood_1": {
-				"Phrase_1": "This is a beautiful little town, \n, and there's nowhere better for a nap \nthan under the old tree, \nbut doesn't it feel like no one here even sees you?",
-				},
+				"Phrase_1": "This is a beautiful little town, and there's nowhere better for a nap than under the old tree, but doesn't it feel like no one here even sees you?"
+				}
 
 		},
 		"To_James": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Please don't get dirt on my suit.",
+				"Phrase_2": "Look here, if you can't help me with this shoe problem, I don't have anything to say to you."
+				}
 
 		},
 		"To_Joe": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "No job huh? I know the feeling.",
+				"Phrase_2": "Here, take this frisbee, I'm not using it."
+				}
+
+		},
+		"To_Martha": {
+			"Mood_1": {
+				"Phrase_1": "Help me think of ways to annoy Mae and I'll buy you a sandwich.",
+				"Phrase_2": "Don't tell anyone I offered you that."
+				}
+
 
 		},
 		"To_Mae": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Care to join me?",
+				"Phrase_2": "I know this park is your home. Sorry if I'm getting in the way."
+				}
 
 		},
 		"To_Marjane": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
-
-		},
-"To_Mario": {
-			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
-			},
-		"To_Melissa": {
-			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
-
-		},
-		"To_Mobsters": {
-			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
-
-		},
-		"To_Paulo": {
-			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
-
-		},
-		"To_Phil": {
-			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
-
-		},
-		"To_Russell": {
-			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
-
-		},
-		"To_Saki": {
-			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Dogs are such a comfort. Ever considered getting one?",
+				"Phrase_2": "Mind if I use you in my novel? I'm always looking for new perspectives to add to it."
+				}
 
 		}
 	},
 	"As_Joe": {
-				"To_Augustus": {
+		"To_Augustus": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "You're going to need a power suit if you want to get that job.",
+				"Phrase_2": "I might know some people who can help you out. I'll see what I can do."
+				}
 		
 		},
 		"To_Barista": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "How's the love life Joe?",
+				"Phrase_2": "Saw you at the ultimate frisbee game last week. You were pretty alright!"
+				}
 
 		},
 		"To_Betty": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "You need to try harder Joe! You have so much potential!",
+				"Phrase_2": "Come help me feed these birds, it'll take your mind off of that job interview."
+				}
 
 		},
 		"To_Carl": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "This lightbulb just won't work...",
+				"Phrase_2": "I'm not sure you're tall enough to reach the lightbulb Joe. Thanks for offering to help though."
+				}
 
 		},
 		"To_City_Face": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Brru",
+				"Phrase_2": "(poop)"
+				}
 
 		},
 		"To_Coffee_Addict": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Huh? Oh sorry, didn't see you there.",
+				"Phrase_2": "Want this coffee? It's room temperature now, I don't want it."
+				}
 
 		},
 		"To_Giovanni": {
 			"Mood_1": {
 				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_2": "..."
+				}
 
 		},
 		"To_Goon": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Scram.",
+				"Phrase_2": "Get out of here."
+				}
 
 		},
 		"To_Hobo": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Hey Joe.",
+				"Phrase_2": "If you have time later, I might be up for a game of frisbee."
+				}
 
 		},
 		"To_James": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Sorry Joe, no work for you here.",
+				"Phrase_2": "Why not go back to school?"
+				}
 
 		},
 		"To_Joe": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "You look familiar...",
+				"Phrase_2": "Do I know you?"
+				}
+		},
+		"To_Martha": {
+			"Mood_1": {
+				"Phrase_1": "You're an alright guy Joe. Not sure I can say one way or the other if you're good or bad, but you're alright.",
+				"Phrase_2": "Nothing wrong with just meeting expectations."
+				}
+
 
 		},
 		"To_Mae": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Want to join me?",
+				"Phrase_2": "Yoga releases your inner strengths. You might find it useful!"
+				}
 
 		},
 		"To_Marjane": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "I've got a character like you in my book.",
+				"Phrase_2": "You've got a great face, its easy to describe."
+				}
 
 		},
-"To_Mario": {
+		"To_Mario": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "You should eat more hot dogs, they're good for you! Just an occasional hot dog isn't enough to get all the benefits!",
+				"Phrase_2": "I've got a new menu item in mind, maybe you'll be into it. But it's still in R&D, so I don't want to give the secret away!"
+				}
 			},
 		"To_Melissa": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Joe, got any candy?",
+				"Phrase_2": "Blech, I hate sugar free candy. Thanks for nothing."
+				}
 
 		},
 		"To_Mobsters": {
 			"Mood_1": {
 				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_2": "..."
+				}
 
 		},
 		"To_Paulo": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Today I've got one bill, one letter, and one package for you. It's weird, they're all the same beige color.",
+				"Phrase_2": "Enjoy your mail!"
+				}
 
 		},
 		"To_Phil": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Being a cop takes skill. It's a difficult job, but someone's got to do it.",
+				"Phrase_2": "Where are you working now?"
+				}
 
 		},
 		"To_Russell": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Aaaaarf!",
+				"Phrase_2": "Bao!"
+				}
 
 		},
 		"To_Saki": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Your face is fascinating. Can I draw you?",
+				"Phrase_2": "I'm actually studying astrophysics, but I think its important to have well rounded talents. I'm working on art now, but I'm not very good yet."
+				}
 
 		}
 	},
+
 	"As_Marjane": {
-				"To_Augustus": {
+		"To_Augustus": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Good morning, Marjane! Have you seen Melissa? She's late for her Latin session.",
+				"Phrase_2": "With her mother gone, I just can't seem to talk with Melissa. I don't think she ever liked me."
+				}
 		
 		},
 		"To_Barista": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Good morning! Green tea and a biscotti again?",
+				"Phrase_2": "I've been writing a story about a glass woman who wants to be a violinist. If she plays a high F, she'll shatter, so every song puts her moments from death."
+				}
 
 		},
 		"To_Betty": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "When I was just a little girl, I played here with a boy named Teddy. I haven't thought of him in years, but he had a puppy just like yours.",
+				"Phrase_2": "We buried a little treasure together one day. I don't remember where, but someone must have found it by now."
+				}
 
 		},
 		"To_Carl": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Mornin', ma'am. Sorry, I'll try and have this light functioning soon. ",
+				"Phrase_2": "I always liked engineering. Little puzzles to solve in every machine. But this job is so tired - just one lightbulb after another."
+				}
 
 		},
 		"To_City_Face": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Prooo?",
+				"Phrase_2": "Coo. Purururu. Broo burooo."
+				}
 
 		},
 		"To_Coffee_Addict": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Mornin'! Care for a cup?",
+				"Phrase_2": "My dad was like a monk. Ate nothing but rice and beans, never a drop of coffee or beer. Me, I can't function without a gallon of one or the other. There has to be a middle ground, huh?"
+				}
 
 		},
 		"To_Giovanni": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "This is no place for a lovely lady like yourself.",
+				"Phrase_2": "Go on, the kids need you."
+				}
 
 		},
 		"To_Goon": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Hey teacher! We've got no school supplies here, sorry." ,
+				"Phrase_2": "Take care of Mel for me, you hear?"
+				}
 
 		},
 		"To_Hobo": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "That's a sweet dog you've got, there.",
+				"Phrase_2": "See that little girl there, in the overalls? She reminds me of my daughter. Looks at me like I'm a monster, though."
+				}
 
 		},
 		"To_James": {
 			"Mood_1": {
 				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_2": "..."
+				}
 
 		},
 		"To_Joe": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "'Sup, babe.",
+				"Phrase_2": "Hey, want to write a story about me? I'll be Captain Hero and you can be the damsel in distress."
+				}
 
 		},
 		"To_Mae": {
 			"Mood_1": {
 				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_2": "..."
+				}
 
 		},
 		"To_Marjane": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "I try not to forget that my story isn't the only one being written. All of my students, every fish and fly and fox, everyone has a story to tell. It seems like such a tragedy to ignore them."
+				}
 
 		},
-"To_Mario": {
+	"To_Mario": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "What, a salad cart? You're nuts! Who would buy that?",
+				"Phrase_2": "Hot dogs are love! Hot dogs are life! Who would want to live without a hot dog in the morning and a chili dog at night?"
+				}
 			},
 		"To_Melissa": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Hi, miss Marjane. No, I haven't done the homework yet.",
+				"Phrase_2": "Are you writing about me in your book? Can you write about me punching my dad in the nose?"
+				}
 
 		},
 		"To_Mobsters": {
 			"Mood_1": {
 				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_2": "We aren't supposed to talk to you. Boss says you'll make us spill the beans."
+				}
 
 		},
 		"To_Paulo": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Morning! Sorry, nothing from the editor today.",
+				"Phrase_2": "I reread your story last night. I love the bit in the lighthouse. I always wanted to live in a lighthouse."
+				}
 
 		},
 		"To_Phil": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Oh, um, hi...",
+				"Phrase_2": "I, uh, like your... dog."
+				}
 
 		},
 		"To_Russell": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "*Pant pant pant*",
+				"Phrase_2": "Foof!"
+				}
 
 		},
 		"To_Saki": {
 			"Mood_1": {
 				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_2": "..."
+				}
 
 		}
 	},
@@ -868,140 +835,139 @@
 				"To_Augustus": {
 			"Mood_1": {
 				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_2": "..."
+				}
 		
 		},
 		"To_Barista": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Melissa! Tall glass of whipped cream today, too?",
+				"Phrase_2": "I'm a little scared to see what you're like after an espresso."
+				}
 
 		},
 		"To_Betty": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Hello again, dearie. Would you like a biscuit too?",
+				"Phrase_2": "Pigeons or people, everybody loves biscuits."
+				}
 
 		},
 		"To_Carl": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Go on, kid, I'm busy.",
+				"Phrase_2": "..."
+				}
 
 		},
 		"To_City_Face": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Broo?"
+				}
 
 		},
 		"To_Coffee_Addict": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Take it from me, kid. Don't start with this stuff. It'll consume your life.",
+				"Phrase_2": "One mocha latte and I was hooked forever. I mean it, stick to herbal tea."
+				}
 
 		},
 		"To_Giovanni": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Madame Melissa! Care to join us?",
+				"Phrase_2": "We'll start with a buy-in of fifteen jawbreakers and take it from there."
+				}
 
 		},
 		"To_Goon": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Yo, Mel. Keepin' Pops on his toes?",
+				"Phrase_2": "Come by when you're 16. I'll teach you to use a tommy gun."
+				}
 
 		},
 		"To_Hobo": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Hey there, little lady.",
+				"Phrase_2": "It's okay, I won't bite."
+				}
 
 		},
 		"To_James": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Good morning, mistress. Your father's not with you, is he?",
+				"Phrase_2": "Please give him the benefit of the doubt. He does care about you."
+				}
 
 		},
 		"To_Joe": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "What're you lookin' at? Is there something in my hair?",
+				"Phrase_2": "Creep kid, staring like that..."
+				}
 
 		},
 		"To_Mae": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Shush, I'm transcending my mortal trappings.",
+				"Phrase_2": "Mere... inches... from... enlightenment..."
+				}
 
 		},
 		"To_Marjane": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Hello, Melissa. \nAre you getting along with your father today?",
+				"Phrase_2": "Don't forget your journal tomorrow, okay?"
+				}
 
 		},
 "To_Mario": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Hey, no more for you. I'm not cleaning ketchup off your dad's car again.",
+				"Phrase_2": "Don't know how you pinned it on me in the first place..."
+				}
 			},
 		"To_Melissa": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Grownups are all mushy, lonely, awkward losers.",
+				"Phrase_2": "Everyone wants company because nobody likes them."
+				}
 
 		},
 		"To_Mobsters": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Hey, Mel.",
+				"Phrase_2": "..."
+				}
 
 		},
 		"To_Paulo": {
 			"Mood_1": {
 				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_2": "..."
+				}
 
 		},
 		"To_Phil": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Psst... Hey! Melissa, right? Your daddy's a big man around town. \nYou'll be just like him when you grow up, I can tell.",
+				"Phrase_2": "Can you do me a favor? Bring this over to the nice lady with the long hair. But no peeking!"
+				}
 
 		},
 		"To_Russell": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "*Slurp*",
+				"Phrase_2": "Groo!"
+				}
 
 		},
 		"To_Saki": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Do you want to be an astronaut when you grow up? You must. Everyone wants to.",
+				"Phrase_2": "I'm going to be one for real, though."
+				}
 
 		}
 	},
@@ -1009,288 +975,295 @@
 		"To_Augustus": {
 			"Mood_1": {
 				"Phrase_1": "Keep an eye out Phil. Someone stole my shoes this morning, haven't found the culprit yet.",
-				"Phrase_2": "You ever seen that show cops? You remind me of those guys somethings. Not sure why.",
-				},
+				"Phrase_2": "You ever seen that show cops? You remind me of those guys somethings. Not sure why."
+				}
 		
 		},
 		"To_Barista": {
 			"Mood_1": {
 				"Phrase_1": "Keep up the good work Phil.",
-				"Phrase_2": "Want some donuts?",
-				},
+				"Phrase_2": "Want some donuts?"
+				}
 
 		},
 		"To_Betty": {
 			"Mood_1": {
 				"Phrase_1": "You remind me of your father, he was always so willing to help others.",
-				"Phrase_2": "You're a sweetie Phil. You act tough, but I know you're a sweetie.",
-				},
+				"Phrase_2": "You're a sweetie Phil. You act tough, but I know you're a sweetie."
+				}
 
 		},
 		"To_Carl": {
 			"Mood_1": {
 				"Phrase_1": "Phil, my man, how are you?",
-				"Phrase_2": "You and me, we're in the same boat. You're catching criminals, I'm fixing lightbulbs. But when you boil it down we're doing the same thing.",
-				},
+				"Phrase_2": "You and me, we're in the same boat. You're catching criminals, I'm fixing lightbulbs. But when you boil it down we're doing the same thing."
+				}
 
 		},
 		"To_City_Face": {
 			"Mood_1": {
 				"Phrase_1": "BrrrCoo",
-				"Phrase_2": "(poop)",
-				},
+				"Phrase_2": "(poop)"
+				}
 
 		},
 		"To_Coffee_Addict": {
 			"Mood_1": {
 				"Phrase_1": "Hey, any chance you can get this parking ticket taken care of?",
-				"Phrase_2": "No worries, just thought I'd ask.",
-				},
+				"Phrase_2": "No worries, just thought I'd ask."
+				}
 
 		},
 		"To_Giovanni": {
 			"Mood_1": {
 				"Phrase_1": "Nothing fishy happening over here boss.",
-				"Phrase_2": "Just a couple of law abiding citizens not loitering on the sidewalk.",
-				},
+				"Phrase_2": "Just a couple of law abiding citizens not loitering on the sidewalk."
+				}
 
 		},
 		"To_Goon": {
 			"Mood_1": {
 				"Phrase_1": "Can we help you?",
-				"Phrase_2": "No, haven't seen anything suspicious around here.",
-				},
+				"Phrase_2": "No, haven't seen anything suspicious around here."
+				}
 
 		},
 		"To_Hobo": {
 			"Mood_1": {
 				"Phrase_1": "Hey, thanks for the blanket last week, that was real nice of you.",
-				"Phrase_2": "If you need any help let me know. I've got the scoop on just about everybody around here.",
-				},
+				"Phrase_2": "If you need any help let me know. I've got the scoop on just about everybody around here."
+				}
 
 		},
 		"To_James": {
 			"Mood_1": {
 				"Phrase_1": "Good Morning sir, how are you today?",
-				"Phrase_2": "Really appreciate the work you do old chap.",
-				},
+				"Phrase_2": "Really appreciate the work you do old chap."
+				}
 
 		},
 		"To_Joe": {
 			"Mood_1": {
 				"Phrase_1": "Hey Phil, how's the wife?",
-				"Phrase_2": "Want to play some frisbee later? What time are you off duty?",
-				},
+				"Phrase_2": "Want to play some frisbee later? What time are you off duty?"
+				}
 
 },
 		"To_Martha": {
 			"Mood_1": {
 				"Phrase_1": "What has that Mae been telling you? I don't know why she has it out for me.",
-				"Phrase_2": "Of course I've never stolen anything! Why would you ask me that?",
-				},
+				"Phrase_2": "Of course I've never stolen anything! Why would you ask me that?"
+				}
 
 		},
 		"To_Mae": {
 			"Mood_1": {
 				"Phrase_1": "Can you please help me with Martha? She's driving me crazy.",
-				"Phrase_2": "There's something her that just irks me. And yet I still have brunch with her on Sundays. Why do I do that to myself?",
-				},
+				"Phrase_2": "There's something her that just irks me. And yet I still have brunch with her on Sundays. Why do I do that to myself?"
+				}
 
 		},
 		"To_Marjane": {
 			"Mood_1": {
 				"Phrase_1": "Hi there.",
-				"Phrase_2": "Nice day, huh?",
-				},
+				"Phrase_2": "Nice day, huh?"
+				}
 
 		},
 		"To_Mario": {
 			"Mood_1": {
 				"Phrase_1": "You watch the game last week?",
-				"Phrase_2": "If you've got some time later, let's hang out. I'll bring the hot dogs, you bring the beer.",
-				},
+				"Phrase_2": "If you've got some time later, let's hang out. I'll bring the hot dogs, you bring the beer."
+				}
 			},
 		"To_Melissa": {
 			"Mood_1": {
 				"Phrase_1": "No officer, I'm not a truant, I have a note from my doctor saying that I can't go to school anymore.",
-				"Phrase_2": "The doctor also said I have low blood sugar. Best way to cure it is to eat candy.",
-				},
+				"Phrase_2": "The doctor also said I have low blood sugar. Best way to cure it is to eat candy."
+				}
 
 		},
 		"To_Mobsters": {
 			"Mood_1": {
 				"Phrase_1": "Evening Officer.",
-				"Phrase_2": "Just a couple of fellas hanging out, nothing to see here.",
-				},
+				"Phrase_2": "Just a couple of fellas hanging out, nothing to see here."
+				}
 
 		},
 		"To_Paulo": {
 			"Mood_1": {
 				"Phrase_1": "I think someone's been tampering with the mail. Do you know how I can report that?",
-				"Phrase_2": "I think I've got a plan to get past that scary dog. I'm still working up the courage to try it out though. ",
-				},
+				"Phrase_2": "I think I've got a plan to get past that scary dog. I'm still working up the courage to try it out though. "
+				}
 
 		},
 		"To_Phil": {
 			"Mood_1": {
 				"Phrase_1": "This is my beat, no need for two officers here.",
-				"Phrase_2": "You new? Don't think I've seen you around before.",
-				},
+				"Phrase_2": "You new? Don't think I've seen you around before."
+				}
 
 		},
 		"To_Russell": {
 			"Mood_1": {
 				"Phrase_1": "Bao!",
-				"Phrase_2": "Bark!",
-				},
+				"Phrase_2": "Bark!"
+				}
 
 		},
 		"To_Saki": {
 			"Mood_1": {
 				"Phrase_1": "You ever thought about becoming an astronaut?",
-				"Phrase_2": "Once we get to long distance space travel, we're going to need peace keepers like you. You've got the right stuff for space Phil.",
-				},
+				"Phrase_2": "Once we get to long distance space travel, we're going to need peace keepers like you. You've got the right stuff for space Phil."
+				}
 
 		}
 	},
 "As_Russell": {
 		"To_Augustus": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Where did this dog come from?",
+				"Phrase_2": "Why is this dog on my lawn?"
+				}
 		
 		},
 		"To_Barista": {
 			"Mood_1": {
 				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_2": "..."
+				}
 
 		},
 		"To_Betty": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Well hello there little pup!",
+				"Phrase_2": "Don't you just have the sweetest face. Your eyes are almost human!"
+				}
 
 		},
 		"To_Carl": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Careful dog, don't touch any of my tools there.",
+				"Phrase_2": "Nice doggy."
+				}
 
 		},
 		"To_City_Face": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Hey, how's it goin'?",
+				"Phrase_2": "You enjoy being a dog? Pigeon life is pretty alright."
+				}
 
 		},
 		"To_Coffee_Addict": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "How did you get in here?",
+				"Phrase_2": "You can't be in the cafe! Dogs aren't allowed!"
+				}
 
 		},
 		"To_Giovanni": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Heh, look the dog wants to play poker.",
+				"Phrase_2": "Scram."
+				}
 
 		},
 		"To_Goon": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Shoo.",
+				"Phrase_2": "Damn dog."
+				}
 
 		},
 		"To_Hobo": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Hey there Russell. Good to see you.",
+				"Phrase_2": "Thanks for cheering me up. Nice to know I have a friend."
+				}
 
 		},
 		"To_James": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Can you get up there? No I don't suppose you can without wings, eh?",
+				"Phrase_2": "Here pup, have a treat. Good dog."
+				}
 
 		},
 		"To_Joe": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Let's play frisbee! I bet you'll love it!",
+				"Phrase_2": "Not a fan of frisbee after all, eh?"
+				}
+
+},
+		"To_Martha": {
+			"Mood_1": {
+				"Phrase_1": "What are you up to dog? I don't like that sneaky look on your face.",
+				"Phrase_2": "Don't think you're going to get any treats from me."
+				}
 
 		},
 		"To_Mae": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Bet your favorite pose is downward facing dog!",
+				"Phrase_2": "Get it? Downward facing…because you're a dog. See?"
+				}
 
 		},
 		"To_Marjane": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Hey there Russell! You're the sweetest dog in the world!",
+				"Phrase_2": "I'm so glad I have you around."
+				}
 
 		},
-"To_Mario": {
+		"To_Mario": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Uhh…nice doggy…don't, don't come any closer...",
+				"Phrase_2": "Stay dog. Don't come over here!"
+				}
 			},
 		"To_Melissa": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "What a cute dog! Such a cutie! Hi dog!",
+				"Phrase_2": "Awww you have the fuzziest little ears!"
+				}
 
 		},
 		"To_Mobsters": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Shoo.",
+				"Phrase_2": "Don't want any dogs around here. No good looking at me with those puppy eyes."
+				}
 
 		},
 		"To_Paulo": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Go away! I am not dinner!",
+				"Phrase_2": "Why do you look so hungry all of the sudden?"
+				}
 
 		},
 		"To_Phil": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "We could use a dog like you on the force. You've got a good sniffer.",
+				"Phrase_2": "Here, have a treat. Now go back and find your human."
+				}
 
 		},
 		"To_Russell": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Hey, FYI I peed there. Don't pee over there too.",
+				"Phrase_2": "Want to sniff each others butts?"
+				}
 
 		},
 		"To_Saki": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "...",
-				},
+				"Phrase_1": "Don't have time for dogs, I have a final next week.",
+				"Phrase_2": "Are you still here? I have stuff to do!"
+				}
 
 		}
 	}

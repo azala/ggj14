@@ -17,5 +17,6 @@
 - (BOOL)doesCollide:(CGPoint)mapPoint;
 - (NPCSprite*)hitsNPC:(CGPoint)mapPoint;
 - (void)triggerInteraction:(CharacterSprite*)cs npc:(NPCSprite*)npc;
+- (void)hideDialogBox;
 
 @end

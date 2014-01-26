@@ -28,7 +28,7 @@
         
         //morph menu
         MorphMenu *mm = [MorphMenu menu];
-        mm.texture = [CCTexture textureWithFile:@"power_select.png"];
+        mm.texture = [CCTexture textureWithFile:@"0_inactive_buttons.png"];
         [mm anchorCenter];
         self.morphMenu = mm;
         [self addChild:mm z:3];

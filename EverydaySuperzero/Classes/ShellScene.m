@@ -37,6 +37,7 @@
     [self.mainNode touchBegan:touch withEvent:event];
     
     self.mainNode.mainChar.morphMenu.visible = NO;
+    [self.mainNode hideDialogBox];
 }
 
 @end

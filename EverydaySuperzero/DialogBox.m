@@ -10,6 +10,8 @@
 
 @implementation DialogBox
 
+@synthesize label;
+
 //- (id)init
 //{
 //    if ((self = [super init]))

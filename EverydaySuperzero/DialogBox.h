@@ -7,7 +7,10 @@
 //
 
 #import "CCSprite.h"
+#import "cocos2d.h"
 
 @interface DialogBox : CCSprite
+
+@property (nonatomic, strong) CCLabelTTF *label;
 
 @end

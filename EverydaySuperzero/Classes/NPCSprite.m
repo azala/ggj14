@@ -31,11 +31,12 @@
     int gform = [Globals sharedInstance].form;
 //    if (self.form == gform)
 //    {
-        self.visible = (self.form != gform);
+//        self.visible = (self.form != gform);
 //    }
+    self.visible = YES;
     if (self.form == 3)
     {
-        self.visible = (gform == 0 || gform == 6);
+        self.visible = (gform == 0 || gform == 6 || gform == 3);
     }
     
     [self doSecretStuff];

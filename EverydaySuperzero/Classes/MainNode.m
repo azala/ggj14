@@ -89,7 +89,7 @@
         //end
         
         // dialog box
-        DialogBox *db = [[DialogBox alloc] initWithTexture:[CCTexture textureWithFile:@"pixel.png"] rect:CGRectMake(0,0,[Utils screenSize].width - 20,100)];
+        DialogBox *db = [[DialogBox alloc] initWithTexture:[CCTexture textureWithFile:@"brown.png"] rect:CGRectMake(0,0,[Utils screenSize].width - 20,76)];
         [self addChild:db z:2];
         CGPoint p = ccp(10, 10);
         db.anchorPoint = ccp(0, 1);
@@ -98,6 +98,12 @@
         p = [[CCDirector sharedDirector] convertToGL:p];
         db.position = p;
         self.dialogBox = db;
+        
+        db.label = [CCLabelTTF labelWithString:@"" fontName:@"Arcadepix Plus.ttf" fontSize:20 dimensions:db.boundingBox.size];
+        db.label.fontColor = [CCColor whiteColor];
+        db.label.anchorPoint = ccp(0,1);
+        db.label.position = ccp(0, db.boundingBox.size.height);
+        [db addChild:db.label];
         
         //need to add all the npcs
         
@@ -217,7 +223,11 @@
     int b = npc.form;
     [[Globals sharedInstance] registerInteraction:a npc:b];
     NSString *dialogue = [[Globals sharedInstance] dialogueForForm:a toForm:b mood:1];
-    NSLog(@"%@", dialogue);
+    if (dialogue)
+    {
+        [self openDialogBox];
+        ((CCLabelTTF*)self.dialogBox.label).string = dialogue;
+    }
 }
 
 - (void)moveCameraToMapPoint:(CGPoint)point
@@ -245,6 +255,11 @@
 - (void)openDialogBox
 {
     self.dialogBox.visible = YES;
+}
+
+- (void)hideDialogBox
+{
+    self.dialogBox.visible = NO;
 }
 
 @end

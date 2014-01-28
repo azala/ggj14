@@ -156,21 +156,21 @@
 		},
 		"To_Barista": {
 			"Mood_1": {
-				"Phrase_1": "Good morning, sir! \nTriple espresso with golf flakes again?",
+				"Phrase_1": "Good morning, sir! Triple espresso with golf flakes again?",
 				"Phrase_2": "So, uh, how about a raise, maybe...?"
 				}
 
 		},
 		"To_Betty": {
 			"Mood_1": {
-				"Phrase_1": "Augustus dearie how are you today?",
-				"Phrase_2": "Why I remember when you were just a young lad. You were so cute, encouraging the neighborhood kids to make smart investments."
+				"Phrase_1": "Augustus, dearie, how are you today?",
+				"Phrase_2": "Why, I remember when you were just a young lad. You were so cute, encouraging the neighborhood kids to make smart investments."
 				}
 
 		},
 		"To_Carl": {
 			"Mood_1": {
-				"Phrase_1": "Not to worry sir, got everything under control here.",
+				"Phrase_1": "Not to worry, sir, got everything under control here.",
 				"Phrase_2": "No sir, I never lollygag. I'm just… problem solving here."
 				}
 
@@ -198,7 +198,7 @@
 		},
 		"To_Goon": {
 			"Mood_1": {
-				"Phrase_1": "Hi Sir.",
+				"Phrase_1": "No Sir.",
 				"Phrase_2": "Yes Sir."
 				}
 
@@ -212,27 +212,27 @@
 		},
 		"To_James": {
 			"Mood_1": {
-				"Phrase_1": "Hello Sir, I've got your lunch all prepared if you'd like to go inside.",
+				"Phrase_1": "Hello, Sir. I've got your lunch all prepared if you'd like to go inside.",
 				"Phrase_2": "No, your shoes will be shined by the end of the day, not to worry."
 				}
 
 		},
 		"To_Joe": {
 			"Mood_1": {
-				"Phrase_1": "...",
+				"Phrase_1": "I'm looking for a new job, but I don't think I'll make it through the interview if I'm dressed like this.",
 				"Phrase_2": "Ever played frisbee before?"
 				}
 		},
 		"To_Martha": {
 			"Mood_1": {
-				"Phrase_1": "I'm looking for a new job, but I don't think I'll make it through the interview if I'm dressed like this.",
-				"Phrase_2": "Ever played frisbee before?"
+				"Phrase_1": "I've heard rumors that the store around the corner is selling solid gold muffin tins. Have you heard anything about that?",
+				"Phrase_2": "Bet those muffins would taste delicious."
 				}
 
 		},
 		"To_Mae": {
 			"Mood_1": {
-				"Phrase_1": "Don't look at me like that I have a right to do yoga in the park. It's not like I'm doing yoga on your lawn.",
+				"Phrase_1": "Don't look at me like that. I have a right to do yoga in the park. It's not like I'm doing yoga on your lawn.",
 				"Phrase_2": "Go away, you're breaking my concentration."
 				}
 
@@ -260,7 +260,7 @@
 		"To_Mobsters": {
 			"Mood_1": {
 				"Phrase_1": "Hi Sir.",
-				"Phrase_2": "Want to play some poker sir?"
+				"Phrase_2": "Want to play some poker, sir?"
 				}
 
 		},
@@ -296,8 +296,8 @@
 	"As_City_Face": {
 				"To_Augustus": {
 			"Mood_1": {
-				"Phrase_1": "Get out of here you filthy animal",
-				"Phrase_2": "Oh god it pooped on me!"
+				"Phrase_1": "Get out of here, you filthy animal",
+				"Phrase_2": "Oh, god, it pooped on me!"
 				}
 		
 		},
@@ -311,7 +311,7 @@
 		"To_Betty": {
 			"Mood_1": {
 				"Phrase_1": "What a lovely birdy.",
-				"Phrase_2": "Oh, some poop!"
+				"Phrase_2": "Have another biscuit, sweetie."
 				}
 
 		},
@@ -345,8 +345,8 @@
 		},
 		"To_Goon": {
 			"Mood_1": {
-				"Phrase_1": "Scram",
-				"Phrase_2": "Damn birds pooping everywhere"
+				"Phrase_1": "Scram.",
+				"Phrase_2": "Damn birds pooping everywhere."
 				}
 
 		},
@@ -366,7 +366,7 @@
 		},
 		"To_Joe": {
 			"Mood_1": {
-				"Phrase_1": "Sorry bird I don't have any bread for you.",
+				"Phrase_1": "Sorry bird, I don't have any bread for you.",
 				"Phrase_2": "Well you don't have to get all huffy about it."
 				}
 
@@ -381,14 +381,14 @@
 		},
 		"To_Mae": {
 			"Mood_1": {
-				"Phrase_1": "You're disrupting my flow bird.",
-				"Phrase_2": "Get off my yoga mat!"
+				"Phrase_1": "You're disrupting my flow, bird.",
+				"Phrase_2": "I call this pose the Bird of Paradise. Your move."
 				}
 
 		},
 		"To_Marjane": {
 			"Mood_1": {
-				"Phrase_1": "Hmm, maybe I can add a bird into my novel as a symbol of hope and renewal.",
+				"Phrase_1": "Hmm, maybe I can add a dove into my novel as a symbol of hope and renewal.",
 				"Phrase_2": "Or maybe I'll just leave birds out of it completely."
 				}
 
@@ -415,7 +415,7 @@
 		},
 		"To_Paulo": {
 			"Mood_1": {
-				"Phrase_1": "Morning bird, sorry no mail for you today.",
+				"Phrase_1": "Morning, pigeon, sorry no mail for you today.",
 				"Phrase_2": "Bird, I said no mail, stopping trying to poop on me!"
 				}
 
@@ -429,14 +429,14 @@
 		},
 		"To_Russell": {
 			"Mood_1": {
-				"Phrase_1": "(Growl)",
-				"Phrase_2": "Bark!"
+				"Phrase_1": "(Where's the rest of your flock?)",
+				"Phrase_2": "(I know there were others before. Are they coming back?)"
 				}
 
 		},
 		"To_Saki": {
 			"Mood_1": {
-				"Phrase_1": "Stop looking at me bird.",
+				"Phrase_1": "Stop looking at me, bird.",
 				"Phrase_2": "I'm trying to study!"
 				}
 
@@ -459,14 +459,14 @@
 		},
 		"To_Betty": {
 			"Mood_1": {
-				"Phrase_1": "Hello there dearie. How has the winter been for you? I hope not too cold.",
+				"Phrase_1": "Hello there, dearie. How has the winter been for you? I hope not too cold.",
 				"Phrase_2": "If I ever find my husband's buried treasure, I'll make sure to give some to you. I want you to be happy!"
 				}
 
 		},
 		"To_Carl": {
 			"Mood_1": {
-				"Phrase_1": "Hey pal, how's it join?",
+				"Phrase_1": "Hey pal, how's it goin'?",
 				"Phrase_2": "No offense, but if you want to get anywhere in this world, you're going to have to shower sometimes."
 				}
 
@@ -488,14 +488,14 @@
 		"To_Giovanni": {
 			"Mood_1": {
 				"Phrase_1": "I've got a little freelance work for you if you're interested.",
-				"Phrase_2": "Not interested? Well I'm here if you change your mind."
+				"Phrase_2": "Not interested? I'm here if you change your mind."
 				}
 
 		},
 		"To_Goon": {
 			"Mood_1": {
-				"Phrase_1": "Got something to say to Giovanni? Going to have to wait your turn.",
-				"Phrase_2": "We've got a little poker game going, can't let you play though. Maybe another time."
+				"Phrase_1": "Got something to say to Giovanni? Gonna have to wait your turn.",
+				"Phrase_2": "We've got a little poker game going. Can't play without a buy-in. Maybe another time, huh?"
 				}
 
 		},
@@ -514,8 +514,8 @@
 		},
 		"To_Joe": {
 			"Mood_1": {
-				"Phrase_1": "No job huh? I know the feeling.",
-				"Phrase_2": "Here, take this frisbee, I'm not using it."
+				"Phrase_1": "No job, huh? I know the feeling.",
+				"Phrase_2": "Here, take this frisbee. It's no good to me anymore."
 				}
 
 		},
@@ -552,14 +552,14 @@
 		},
 		"To_Barista": {
 			"Mood_1": {
-				"Phrase_1": "How's the love life Joe?",
+				"Phrase_1": "How's the love life, Joe?",
 				"Phrase_2": "Saw you at the ultimate frisbee game last week. You were pretty alright!"
 				}
 
 		},
 		"To_Betty": {
 			"Mood_1": {
-				"Phrase_1": "You need to try harder Joe! You have so much potential!",
+				"Phrase_1": "You need to try harder, Joe! You have so much potential!",
 				"Phrase_2": "Come help me feed these birds, it'll take your mind off of that job interview."
 				}
 
@@ -567,7 +567,7 @@
 		"To_Carl": {
 			"Mood_1": {
 				"Phrase_1": "This lightbulb just won't work...",
-				"Phrase_2": "I'm not sure you're tall enough to reach the lightbulb Joe. Thanks for offering to help though."
+				"Phrase_2": "I'm not sure you're tall enough to reach the lightbulb, Joe. But thanks for trying."
 				}
 
 		},
@@ -581,7 +581,7 @@
 		"To_Coffee_Addict": {
 			"Mood_1": {
 				"Phrase_1": "Huh? Oh sorry, didn't see you there.",
-				"Phrase_2": "Want this coffee? It's room temperature now, I don't want it."
+				"Phrase_2": "Want this coffee? I don't want it. It's lukewarm now - just like you!"
 				}
 
 		},
@@ -621,7 +621,7 @@
 		},
 		"To_Martha": {
 			"Mood_1": {
-				"Phrase_1": "You're an alright guy Joe. Not sure I can say one way or the other if you're good or bad, but you're alright.",
+				"Phrase_1": "You're an alright guy, Joe. Not sure I can say one way or the other if you're good or bad, but you're alright.",
 				"Phrase_2": "Nothing wrong with just meeting expectations."
 				}
 
@@ -629,7 +629,7 @@
 		},
 		"To_Mae": {
 			"Mood_1": {
-				"Phrase_1": "Want to join me?",
+				"Phrase_1": "Want to join me? Just stand on your head and touch your heels to your shoulders.",
 				"Phrase_2": "Yoga releases your inner strengths. You might find it useful!"
 				}
 
@@ -637,7 +637,7 @@
 		"To_Marjane": {
 			"Mood_1": {
 				"Phrase_1": "I've got a character like you in my book.",
-				"Phrase_2": "You've got a great face, its easy to describe."
+				"Phrase_2": "You've got a great face. Very easy to describe."
 				}
 
 		},
@@ -694,7 +694,7 @@
 	"As_Marjane": {
 		"To_Augustus": {
 			"Mood_1": {
-				"Phrase_1": "Good morning, Marjane! Have you seen Melissa? She's late for her Latin session.",
+				"Phrase_1": "Good morning, Marjane! Have you seen Melissa? She's late for her Latin recital.",
 				"Phrase_2": "With her mother gone, I just can't seem to talk with Melissa. I don't think she ever liked me."
 				}
 		
@@ -702,7 +702,7 @@
 		"To_Barista": {
 			"Mood_1": {
 				"Phrase_1": "Good morning! Green tea and a biscotti again?",
-				"Phrase_2": "I've been writing a story about a glass woman who wants to be a violinist. If she plays a high F, she'll shatter, so every song puts her moments from death."
+				"Phrase_2": "I had a dream about a glass woman who played violin. If she played a high F, she'd shatter, so every song was a dance with death."
 				}
 
 		},
@@ -750,15 +750,15 @@
 		},
 		"To_Hobo": {
 			"Mood_1": {
-				"Phrase_1": "That's a sweet dog you've got, there.",
+				"Phrase_1": "That's a sweet dog you've got there.",
 				"Phrase_2": "See that little girl there, in the overalls? She reminds me of my daughter. Looks at me like I'm a monster, though."
 				}
 
 		},
 		"To_James": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "..."
+				"Phrase_1": "Good morning. Don't tell anyone else, but I've lost the master's shoes in this tree, and I'm having a pickle of a time trying to get it out.",
+				"Phrase_2": "I just get so angry at Augustus sometimes. He doesn't deserve to be a father."
 				}
 
 		},
@@ -771,8 +771,8 @@
 		},
 		"To_Mae": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "..."
+				"Phrase_1": "No one wants to join me here. Come on, your ventricles could use some stretching.",
+				"Phrase_2": "I'm sure your stories are lovely. I don't know how to write, but I always feel drama in my limbs when I'm out here."
 				}
 
 		},
@@ -782,10 +782,17 @@
 				}
 
 		},
-	"To_Mario": {
+		"To_Mario": {
 			"Mood_1": {
 				"Phrase_1": "What, a salad cart? You're nuts! Who would buy that?",
 				"Phrase_2": "Hot dogs are love! Hot dogs are life! Who would want to live without a hot dog in the morning and a chili dog at night?"
+				}
+			},
+			
+		"To_Martha": {
+			"Mood_!": {
+				"Phrase_1": "Mae looks serene and graceful, but I know it's all an act. If you really want to know a person, just try their muffins. Inner turmoil really comes out in the batter.",
+				"Phrase_2": "Back in Canada, muffins are considered a delicacy. No one knows how to really enjoy a muffin out here."
 				}
 			},
 		"To_Melissa": {
@@ -805,7 +812,7 @@
 		"To_Paulo": {
 			"Mood_1": {
 				"Phrase_1": "Morning! Sorry, nothing from the editor today.",
-				"Phrase_2": "I reread your story last night. I love the bit in the lighthouse. I always wanted to live in a lighthouse."
+				"Phrase_2": "I reread your story last night. I love the bit about the lighthouse. I always wanted to live in a lighthouse."
 				}
 
 		},
@@ -825,8 +832,8 @@
 		},
 		"To_Saki": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "..."
+				"Phrase_1": "What are you writing about? Does it have aliens?",
+				"Phrase_2": "I don't see the point of stories that don't have space travel. Or at least dragons."
 				}
 
 		}
@@ -834,8 +841,8 @@
 	"As_Melissa": {
 				"To_Augustus": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "..."
+				"Phrase_1": "There you are! Come along, now. You're late for your Latin recital.",
+				"Phrase_2": "Look, don't you want to graduate magna cum laude from Yale, just like your daddy?"
 				}
 		
 		},
@@ -862,7 +869,8 @@
 		},
 		"To_City_Face": {
 			"Mood_1": {
-				"Phrase_1": "Broo?"
+				"Phrase_1": "Broo?",
+				"Phrase_2": "Bawk!"
 				}
 
 		},
@@ -911,17 +919,25 @@
 		"To_Mae": {
 			"Mood_1": {
 				"Phrase_1": "Shush, I'm transcending my mortal trappings.",
-				"Phrase_2": "Mere... inches... from... enlightenment..."
+				"Phrase_2": "Just... inches... from... enlightenment..."
 				}
 
 		},
 		"To_Marjane": {
 			"Mood_1": {
-				"Phrase_1": "Hello, Melissa. \nAre you getting along with your father today?",
-				"Phrase_2": "Don't forget your journal tomorrow, okay?"
+				"Phrase_1": "Hello, Melissa. Are you getting along with your father today?",
+				"Phrase_2": "Don't forget your journal tomorrow, okay? You'll appreciate it when you're older."
 				}
+				
+			},
+		"To_Martha": {
+			"Mood_!": {
+				"Phrase_1": "Hey, kid! Can you do me a favor? My friend Mae borrowed my muffin tin. She's busy doing her yoga, so can you run and get it for me?",
+				"Phrase_2": "Of course it's my muffin tin! Just don't tell Mae about it. She, uh, needs her concentration."
+				}
+			},
 
-		},
+
 "To_Mario": {
 			"Mood_1": {
 				"Phrase_1": "Hey, no more for you. I'm not cleaning ketchup off your dad's car again.",
@@ -944,8 +960,8 @@
 		},
 		"To_Paulo": {
 			"Mood_1": {
-				"Phrase_1": "...",
-				"Phrase_2": "..."
+				"Phrase_1": "Your propeller hat's coming. Give it another six to eight weeks.",
+				"Phrase_2": "No more water balloons in the mailbox, okay?"
 				}
 
 		},
@@ -975,21 +991,21 @@
 		"To_Augustus": {
 			"Mood_1": {
 				"Phrase_1": "Keep an eye out Phil. Someone stole my shoes this morning, haven't found the culprit yet.",
-				"Phrase_2": "You ever seen that show cops? You remind me of those guys somethings. Not sure why."
+				"Phrase_2": "You ever seen that show 'Cops'? You remind me of those guys sometimes. Not sure why."
 				}
 		
 		},
 		"To_Barista": {
 			"Mood_1": {
-				"Phrase_1": "Keep up the good work Phil.",
-				"Phrase_2": "Want some donuts?"
+				"Phrase_1": "Keep up the good work, Phil.",
+				"Phrase_2": "Want some donuts? On the house."
 				}
 
 		},
 		"To_Betty": {
 			"Mood_1": {
-				"Phrase_1": "You remind me of your father, he was always so willing to help others.",
-				"Phrase_2": "You're a sweetie Phil. You act tough, but I know you're a sweetie."
+				"Phrase_1": "You remind me of your father. He was always so willing to help others.",
+				"Phrase_2": "You're a sweetie, Phil. You act tough, but I know you're a sweetie."
 				}
 
 		},
@@ -1199,7 +1215,7 @@
 },
 		"To_Martha": {
 			"Mood_1": {
-				"Phrase_1": "What are you up to dog? I don't like that sneaky look on your face.",
+				"Phrase_1": "What are you up to, dog? I don't like that sneaky look on your face.",
 				"Phrase_2": "Don't think you're going to get any treats from me."
 				}
 

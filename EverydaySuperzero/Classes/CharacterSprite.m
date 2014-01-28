@@ -11,6 +11,7 @@
 #import "Utils.h"
 #import "MorphMenu.h"
 #import "MainNode.h"
+#import "FadeLabelDialog.h"
 
 @implementation CharacterSprite
 
@@ -34,6 +35,17 @@
         [self addChild:mm z:3];
         mm.userInteractionEnabled = YES;
         self.morphMenu.visible = NO;
+        
+//        FadeLabelDialog *fld = [[FadeLabelDialog alloc] initWithTexture:mm.texture rect:CGRectMake(0,0,150,50)];
+//        [fld anchorCenter];
+//        fld.position = ccp(150, 50);
+//        fld = [fld initWithTime:5 fadingAfter:2];
+//        fld.label = [CCLabelTTF labelWithString:@"I’m new in town.\nI wonder what the people here are like." fontName:@"Arcadepix Plus.ttf" fontSize:20 dimensions:fld.boundingBox.size];
+//        [fld.label anchorCenter];
+//        fld.label.position = CGPointMake(10, 50);
+//        [fld addChild:fld.label];
+//        [self addChild:fld];
+//        fld.label.set
     }
     return self;
 }

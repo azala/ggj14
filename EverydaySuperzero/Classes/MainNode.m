@@ -36,7 +36,9 @@
 
 @end
 
-@implementation MainNode
+@implementation MainNode {
+    AVAudioPlayer *audioPlayer;
+}
 
 @synthesize tileMap, background, collision, top, under, minX, minY, maxX, maxY, mainChar, dialogBox, og, npcs;
 
@@ -105,7 +107,17 @@
         db.label.position = ccp(0, db.boundingBox.size.height);
         [db addChild:db.label];
         
-        //need to add all the npcs
+        //audio
+        NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/Crystal Village.mp3", [[NSBundle mainBundle] resourcePath]]];
+        NSError *error;
+        audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
+        audioPlayer.numberOfLoops = -1;
+        audioPlayer.volume = 0.2;
+        if (audioPlayer == nil)
+            NSLog(@"%@", [error description]);
+        else 
+            [audioPlayer play];
+        //end
         
         //test
         [[Globals sharedInstance] parseDialogue];
